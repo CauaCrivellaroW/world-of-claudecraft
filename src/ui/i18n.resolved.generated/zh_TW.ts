@@ -9742,6 +9742,13 @@ export const zh_TW: EnTranslations = {
       "dodge": "閃躲！"
     }
   },
+  "landing": {
+    "headline": "你的故事，從這裡開始。",
+    "tools": "Tools",
+    "records": "WoC Records",
+    "scout": "WoC Scout",
+    "parseService": "WoC Parse Service"
+  },
   "seo": {
     "title": "World of ClaudeCraft：經典風格網頁 MMO",
     "description": "在 World of ClaudeCraft 展開史詩冒險。這是一款可直接在瀏覽器中遊玩的經典風格微型 MMO。加入持續共享的世界，提升職業等級並擊敗敵人！",

@@ -9742,6 +9742,13 @@ export const ru_RU: EnTranslations = {
       "dodge": "УКЛОНЕНИЕ!"
     }
   },
+  "landing": {
+    "headline": "Твоя история начинается здесь.",
+    "tools": "Tools",
+    "records": "WoC Records",
+    "scout": "WoC Scout",
+    "parseService": "WoC Parse Service"
+  },
   "seo": {
     "title": "World of ClaudeCraft: веб-MMO в классическом стиле",
     "description": "Отправьтесь в эпическое приключение в World of ClaudeCraft, микро-MMO в классическом стиле прямо в браузере. Присоединяйтесь к постоянному общему миру, развивайте классы и побеждайте врагов.",
