@@ -9744,10 +9744,10 @@ export const ru_RU: EnTranslations = {
   },
   "landing": {
     "headline": "Твоя история начинается здесь.",
-    "tools": "Tools",
-    "records": "WoC Records",
-    "scout": "WoC Scout",
-    "parseService": "WoC Parse Service"
+    "tools": "Инструменты",
+    "records": "WoC Рекорды",
+    "scout": "WoC Разведка",
+    "parseService": "WoC Боевые отчёты"
   },
   "seo": {
     "title": "World of ClaudeCraft: веб-MMO в классическом стиле",

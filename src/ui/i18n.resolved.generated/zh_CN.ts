@@ -9744,10 +9744,10 @@ export const zh_CN: EnTranslations = {
   },
   "landing": {
     "headline": "你的故事，从这里开始。",
-    "tools": "Tools",
-    "records": "WoC Records",
-    "scout": "WoC Scout",
-    "parseService": "WoC Parse Service"
+    "tools": "工具",
+    "records": "WoC 记录",
+    "scout": "WoC 侦察",
+    "parseService": "WoC 战斗日志"
   },
   "seo": {
     "title": "World of ClaudeCraft：经典风格网页 MMO",

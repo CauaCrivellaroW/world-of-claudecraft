@@ -52,30 +52,10 @@ export const pending: Record<string, readonly string[]> = {
     "landing.scout",
     "landing.tools"
   ],
-  "zh_CN": [
-    "landing.parseService",
-    "landing.records",
-    "landing.scout",
-    "landing.tools"
-  ],
-  "zh_TW": [
-    "landing.parseService",
-    "landing.records",
-    "landing.scout",
-    "landing.tools"
-  ],
-  "ko_KR": [
-    "landing.parseService",
-    "landing.records",
-    "landing.scout",
-    "landing.tools"
-  ],
-  "ja_JP": [
-    "landing.parseService",
-    "landing.records",
-    "landing.scout",
-    "landing.tools"
-  ],
+  "zh_CN": [],
+  "zh_TW": [],
+  "ko_KR": [],
+  "ja_JP": [],
   "pt_BR": [
     "landing.headline",
     "landing.parseService",
@@ -83,12 +63,7 @@ export const pending: Record<string, readonly string[]> = {
     "landing.scout",
     "landing.tools"
   ],
-  "ru_RU": [
-    "landing.parseService",
-    "landing.records",
-    "landing.scout",
-    "landing.tools"
-  ],
+  "ru_RU": [],
   "cs_CZ": [
     "landing.headline",
     "landing.parseService",

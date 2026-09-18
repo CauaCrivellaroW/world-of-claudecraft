@@ -9744,10 +9744,10 @@ export const ko_KR: EnTranslations = {
   },
   "landing": {
     "headline": "당신의 이야기는 여기서 시작됩니다.",
-    "tools": "Tools",
-    "records": "WoC Records",
-    "scout": "WoC Scout",
-    "parseService": "WoC Parse Service"
+    "tools": "도구",
+    "records": "WoC 기록",
+    "scout": "WoC 정찰",
+    "parseService": "WoC 전투 기록"
   },
   "seo": {
     "title": "World of ClaudeCraft: 클래식 스타일 웹 MMO",

@@ -9744,10 +9744,10 @@ export const ja_JP: EnTranslations = {
   },
   "landing": {
     "headline": "あなたの物語は、ここから。",
-    "tools": "Tools",
-    "records": "WoC Records",
-    "scout": "WoC Scout",
-    "parseService": "WoC Parse Service"
+    "tools": "ツール",
+    "records": "WoC 記録",
+    "scout": "WoC スカウト",
+    "parseService": "WoC 戦闘ログ"
   },
   "seo": {
     "title": "World of ClaudeCraft: クラシック風Web MMO",
