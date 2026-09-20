@@ -15,12 +15,14 @@ const LINUX_APPIMAGE_RE = /world-of-claudecraft-\d+\.\d+\.\d+-linux-x86_64\.AppI
 // the old combined "-win.exe" that folded both arches into one download.
 const WINDOWS_INSTALLER_RE = /world-of-claudecraft-\d+\.\d+\.\d+-win-x64\.exe/g;
 // A page migrated before the per-arch cutover (or hand-edited afterward) can
-// still carry the legacy combined-installer filename. Flag it even though web
-// and desktop publication now advance independently.
+// still carry the legacy combined-installer filename. Both prepare and check
+// must recognize it so it gets rewritten/flagged instead of silently surviving
+// a version bump (issue: legacy Windows links bypass the release guard).
 const LEGACY_WINDOWS_INSTALLER_RE = /world-of-claudecraft-\d+\.\d+\.\d+-win\.exe/g;
-// Desktop links retain their last verified published version when release
-// preparation advances package.json and the visible website version. The DOM
-// download tests check their parity with desktop_download.ts DESKTOP_VERSION.
+// src/game/desktop_download.ts is deliberately absent from this script's
+// surfaces: DESKTOP_VERSION derives from package.json at build time through the
+// __APP_VERSION__ define, so nothing there needs rewriting or checking. The
+// static html hrefs below stay release-owned as the no-JS fallback.
 const GAME_VERSION_RE = /(<div\b[^>]*\bid=["']game-version["'][^>]*>)v[^<]*(<\/div>)/;
 const README_VERSION_BADGE_SOURCE = String.raw`img\.shields\.io/badge/version-(\d+\.\d+\.\d+)-blue`;
 
@@ -87,8 +89,6 @@ export function setPackageVersion(packageJson, version) {
   return stringifyJson(pkg);
 }
 
-// Explicit helper for updating URLs after desktop publication is verified.
-// Website release preparation intentionally does not call it.
 export function setDesktopDownloadVersion(html, version, path) {
   if (!MAC_DMG_RE.test(html)) {
     throw new Error(`${path} is missing a macOS desktop download URL`);
@@ -140,7 +140,7 @@ export function planReleaseVersion({
   const nextHtmlFiles = Object.fromEntries(
     Object.entries(htmlFiles).map(([path, html]) => [
       path,
-      setGameVersionText(html, normalized, path),
+      setGameVersionText(setDesktopDownloadVersion(html, normalized, path), normalized, path),
     ]),
   );
   const nextReadmeFiles = Object.fromEntries(
@@ -212,16 +212,29 @@ export function collectReleaseVersionFailures({
     }
   }
 
+  const expectedArtifact = `world-of-claudecraft-${expected}-mac-universal.dmg`;
+  const expectedLinuxArtifact = `world-of-claudecraft-${expected}-linux-x86_64.AppImage`;
+  const expectedWindowsArtifact = `world-of-claudecraft-${expected}-win-x64.exe`;
   for (const [path, html] of Object.entries(htmlFiles)) {
     const gameVersion = readGameVersion(html);
     if (gameVersion !== expected) {
       failures.push(`${path} game-version is v${gameVersion}, expected v${expected}`);
     }
-    if (!html.match(MAC_DMG_RE)) {
-      failures.push(`${path} is missing a macOS desktop download URL`);
+    if (!html.includes(expectedArtifact)) {
+      failures.push(`${path} is missing the macOS desktop download URL for ${expected}`);
     }
-    if (html.match(LEGACY_WINDOWS_INSTALLER_RE)) {
-      failures.push(`${path} has an obsolete combined Windows installer URL`);
+    // Only pages that carry a Linux link must have it on the release version;
+    // play.html links only the dmg and stays exempt.
+    LINUX_APPIMAGE_RE.lastIndex = 0;
+    if (LINUX_APPIMAGE_RE.test(html) && !html.includes(expectedLinuxArtifact)) {
+      failures.push(`${path} has a stale Linux desktop download URL, expected ${expected}`);
+    }
+    WINDOWS_INSTALLER_RE.lastIndex = 0;
+    LEGACY_WINDOWS_INSTALLER_RE.lastIndex = 0;
+    const hasWindowsInstallerLink =
+      WINDOWS_INSTALLER_RE.test(html) || LEGACY_WINDOWS_INSTALLER_RE.test(html);
+    if (hasWindowsInstallerLink && !html.includes(expectedWindowsArtifact)) {
+      failures.push(`${path} has a stale Windows desktop download URL, expected ${expected}`);
     }
     if (/coming soon/i.test(html)) {
       failures.push(`${path} still contains Coming Soon in the download panel`);

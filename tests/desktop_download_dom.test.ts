@@ -73,8 +73,9 @@ describe('initDesktopDownload', () => {
 });
 
 // The static entry-page hrefs are the no-JS fallback for the download buttons.
-// They and DESKTOP_VERSION advance only after installer publication. This guard
-// fails when either entry page drifts from the verified published URLs.
+// They are release-owned (scripts/release_version.mjs rewrites them at prepare)
+// while the module derives its version from package.json at build time, so this
+// is the guard that reds when only one of the two moves.
 function entryLinks(path: string, platform: string): HTMLAnchorElement[] {
   const entry = new DOMParser().parseFromString(readFileSync(path, 'utf8'), 'text/html');
   return [
@@ -97,7 +98,8 @@ describe('desktop download entry markup', () => {
     const links = entryLinks('index.html', 'linux');
     expect(links).toHaveLength(1);
     expect(links[0]?.getAttribute('href')).toBe(desktopDownloadUrl('linux'));
-    // play.html deliberately links only mac and Windows.
+    // play.html deliberately links only mac and Windows; collectReleaseVersionFailures
+    // exempts pages that never carried an AppImage link.
     expect(entryLinks('play.html', 'linux')).toHaveLength(0);
   });
 

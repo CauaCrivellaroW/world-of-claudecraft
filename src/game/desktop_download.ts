@@ -6,12 +6,18 @@
 
 export type DesktopPlatform = 'mac' | 'win' | 'linux' | 'other';
 
-// Pin the installer release verified on the update host. Website releases can
-// precede desktop publication, so __APP_VERSION__ must never select these URLs.
-// Advance this only after all three installers are published, then update the
-// no-JS hrefs in index.html and play.html (tests/desktop_download_dom.test.ts).
-// See docs/desktop-release.md for the publication checks.
-export const DESKTOP_VERSION = '0.43.2';
+// The published desktop build on the update host, derived from package.json at
+// build time through the __APP_VERSION__ define (vite.config.ts), so it can
+// never drift from the release version. The artifacts uploaded to
+// updates.worldofclaudecraft.com/desktop/ carry that same version (see
+// docs/desktop-release.md). The static hrefs in index.html and play.html remain
+// the no-JS fallback: scripts/release_version.mjs rewrites them at release
+// prepare, and tests/desktop_download_dom.test.ts cross-checks them against
+// this module.
+declare const __APP_VERSION__: string;
+// The standalone browser-test config injects no defines, so a bare identifier
+// would throw there; the guard keeps this module importable everywhere.
+export const DESKTOP_VERSION = typeof __APP_VERSION__ !== 'undefined' ? __APP_VERSION__ : '0.0.0';
 const DESKTOP_HOST = 'https://updates.worldofclaudecraft.com/desktop';
 
 // electron-builder website-channel artifact names (docs/desktop-release.md):

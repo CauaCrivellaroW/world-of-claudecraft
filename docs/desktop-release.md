@@ -583,17 +583,12 @@ SHA256SUMS-mac --ignore-missing` on macOS) from their download directory.
 ## Publishing a website update
 
 1. Bump `version` in `package.json` (the feed is version-ordered; see rollback).
-   Artifact names key off the build's `package.json` version. Website and
-   desktop publication can happen separately: `DESKTOP_VERSION` in
-   `src/game/desktop_download.ts` pins the last verified published installers,
-   and `scripts/release_version.mjs prepare` preserves download URLs. After
-   publication, verify the version in `latest.yml`, `latest-mac.yml`, and
-   `latest-linux.yml` and confirm all linked installers return HTTP 200 with
-   `curl -I`. Only then advance `DESKTOP_VERSION`, its literal test pin in
-   `tests/desktop_download.test.ts`, and the installer hrefs in `index.html`
-   and `play.html`. Run `npx vitest run tests/desktop_download.test.ts
-   tests/desktop_download_dom.test.ts tests/release_version.test.ts` to verify
-   entry-page URL parity and independent website version bumps. The page
+   `DESKTOP_VERSION` in `src/game/desktop_download.ts` derives from it at build
+   time through the `__APP_VERSION__` define, so the download page links follow
+   the bump on their own; `scripts/release_version.mjs prepare` rewrites the
+   static hrefs in `index.html` and `play.html` (the no-JS fallback) to the same
+   version, and `tests/desktop_download_dom.test.ts` pins them against the
+   module. Artifact names key off `package.json` `version` too. The page
    offers macOS (dmg), Windows (the x64 NSIS installer; `build.nsis.
    buildUniversalInstaller: false` makes electron-builder emit one installer per
    arch instead of a single dual-arch exe, and the download page links x64,
