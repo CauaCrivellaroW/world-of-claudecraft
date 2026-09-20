@@ -1,4 +1,4 @@
-/* Main website only. The game HUD, /play, and native shells keep their own chrome.
+/* Browser website entries. The game HUD and native shells keep their own chrome.
    All palette values live in tokens.css; this entry uses a fixed fantasy portal
    palette so in-game theme preferences cannot change the website's contrast. */
 @layer shell {
@@ -9,6 +9,9 @@
     display: none;
   }
   .website-footer-brand {
+    display: none;
+  }
+  .website-community-links {
     display: none;
   }
   .website-tools-item {
@@ -472,6 +475,13 @@
       width: 100%;
       height: 100%;
       object-fit: contain;
+    }
+    & .website-community-links {
+      display: inline-flex;
+      max-width: 100%;
+      flex-wrap: wrap;
+      gap: 8px 24px;
+      align-items: center;
     }
     & .website-community {
       display: inline-flex;
@@ -1317,7 +1327,7 @@
         .website-headline,
         .website-intro,
         .website-benefits,
-        .website-community
+        .website-community-links
       ) {
       animation: website-story-reveal 700ms cubic-bezier(0.2, 0.75, 0.25, 1) both;
     }
@@ -1333,7 +1343,7 @@
     & .website-story > .website-benefits {
       animation-delay: 230ms;
     }
-    & .website-story > .website-community {
+    & .website-story > .website-community-links {
       animation-delay: 290ms;
     }
     & :is(#mode-select, #login-panel, #forgot-panel, #reset-panel):not([hidden]) {

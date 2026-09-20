@@ -9744,6 +9744,7 @@ export const ru_RU: EnTranslations = {
   },
   "landing": {
     "headline": "Твоя история начинается здесь.",
+    "contribute": "Участвовать в разработке игры",
     "tools": "Инструменты",
     "records": "WoC Рекорды",
     "scout": "WoC Разведка",

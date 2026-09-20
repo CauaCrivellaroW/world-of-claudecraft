@@ -151,7 +151,7 @@ describe('release version transforms', () => {
 });
 
 describe('planReleaseVersion', () => {
-  it('prepares every release version surface for the target semver', () => {
+  it('bumps website versions while preserving published desktop downloads', () => {
     const plan = planReleaseVersion({
       version: '0.21.0',
       packageJson: PACKAGE_JSON,
@@ -169,14 +169,15 @@ describe('planReleaseVersion', () => {
     expect(JSON.parse(plan.packageJson).version).toBe('0.21.0');
     expect(plan.gradle).toContain('versionName "0.21.0"');
     expect(plan.pbxproj.match(/MARKETING_VERSION = 0\.21\.0;/g)).toHaveLength(2);
-    expect(plan.htmlFiles['index.html']).toContain('world-of-claudecraft-0.21.0-mac-universal.dmg');
+    expect(plan.htmlFiles['index.html']).toContain('world-of-claudecraft-0.20.0-mac-universal.dmg');
     expect(plan.htmlFiles['index.html']).toContain(
-      'world-of-claudecraft-0.21.0-linux-x86_64.AppImage',
+      'world-of-claudecraft-0.20.0-linux-x86_64.AppImage',
     );
-    expect(plan.htmlFiles['index.html']).toContain('world-of-claudecraft-0.21.0-win-x64.exe');
-    expect(plan.htmlFiles['play.html']).toContain('world-of-claudecraft-0.21.0-win-x64.exe');
+    expect(plan.htmlFiles['index.html']).toContain('world-of-claudecraft-0.20.0-win-x64.exe');
+    expect(plan.htmlFiles['play.html']).toContain('world-of-claudecraft-0.20.0-win-x64.exe');
     expect(plan.htmlFiles['play.html']).toContain('<div id="game-version">v0.21.0</div>');
     expect(plan.readmeFiles['README.md']).toContain('version-0.21.0-blue');
+    expect(collectReleaseVersionFailures({ version: '0.21.0', ...plan })).toEqual([]);
   });
 });
 
@@ -202,9 +203,7 @@ describe('collectReleaseVersionFailures', () => {
         'android/app/build.gradle versionName is 0.20.0, expected 0.21.0',
         'ios/App/App.xcodeproj/project.pbxproj MARKETING_VERSION includes 0.20.0, expected all 0.21.0',
         'index.html game-version is v0.10, expected v0.21.0',
-        'index.html has a stale Linux desktop download URL, expected 0.21.0',
-        'index.html has a stale Windows desktop download URL, expected 0.21.0',
-        'play.html is missing the macOS desktop download URL for 0.21.0',
+        'play.html is missing a macOS desktop download URL',
         'play.html still contains Coming Soon in the download panel',
         'README.md version badge includes 0.20.0, expected all 0.21.0',
       ]),
@@ -245,8 +244,6 @@ describe('collectReleaseVersionFailures', () => {
       },
     });
 
-    expect(failures).toContain(
-      'index.html has a stale Windows desktop download URL, expected 0.21.0',
-    );
+    expect(failures).toContain('index.html has an obsolete combined Windows installer URL');
   });
 });

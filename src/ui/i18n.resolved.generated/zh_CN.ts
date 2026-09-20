@@ -9744,6 +9744,7 @@ export const zh_CN: EnTranslations = {
   },
   "landing": {
     "headline": "你的故事，从这里开始。",
+    "contribute": "参与游戏开发",
     "tools": "工具",
     "records": "WoC 记录",
     "scout": "WoC 侦察",

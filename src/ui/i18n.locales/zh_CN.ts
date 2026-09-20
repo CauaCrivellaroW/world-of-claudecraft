@@ -15,6 +15,7 @@ import type { TranslationKey } from '../i18n.catalog';
 export const zh_CN: Partial<Record<TranslationKey, string>> = {
   'hudChrome.noticeboard.officerEntry': '{name}（{rank}）',
   'hudChrome.professionTrainers.nameplate': '＜{title}＞',
+  'landing.contribute': '参与游戏开发',
   'landing.headline': '你的故事，从这里开始。',
   'landing.tools': '工具',
   'landing.records': 'WoC 记录',

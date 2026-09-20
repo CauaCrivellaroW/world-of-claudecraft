@@ -9744,6 +9744,7 @@ export const ko_KR: EnTranslations = {
   },
   "landing": {
     "headline": "당신의 이야기는 여기서 시작됩니다.",
+    "contribute": "게임 개발에 기여하기",
     "tools": "도구",
     "records": "WoC 기록",
     "scout": "WoC 정찰",

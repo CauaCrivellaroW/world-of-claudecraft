@@ -10,6 +10,7 @@
 
 export const pending: Record<string, readonly string[]> = {
   "es": [
+    "landing.contribute",
     "landing.headline",
     "landing.parseService",
     "landing.records",
@@ -17,6 +18,7 @@ export const pending: Record<string, readonly string[]> = {
     "landing.tools"
   ],
   "es_ES": [
+    "landing.contribute",
     "landing.headline",
     "landing.parseService",
     "landing.records",
@@ -24,6 +26,7 @@ export const pending: Record<string, readonly string[]> = {
     "landing.tools"
   ],
   "fr_FR": [
+    "landing.contribute",
     "landing.headline",
     "landing.parseService",
     "landing.records",
@@ -31,6 +34,7 @@ export const pending: Record<string, readonly string[]> = {
     "landing.tools"
   ],
   "fr_CA": [
+    "landing.contribute",
     "landing.headline",
     "landing.parseService",
     "landing.records",
@@ -39,6 +43,7 @@ export const pending: Record<string, readonly string[]> = {
   ],
   "en_CA": [],
   "it_IT": [
+    "landing.contribute",
     "landing.headline",
     "landing.parseService",
     "landing.records",
@@ -46,6 +51,7 @@ export const pending: Record<string, readonly string[]> = {
     "landing.tools"
   ],
   "de_DE": [
+    "landing.contribute",
     "landing.headline",
     "landing.parseService",
     "landing.records",
@@ -57,6 +63,7 @@ export const pending: Record<string, readonly string[]> = {
   "ko_KR": [],
   "ja_JP": [],
   "pt_BR": [
+    "landing.contribute",
     "landing.headline",
     "landing.parseService",
     "landing.records",
@@ -65,6 +72,7 @@ export const pending: Record<string, readonly string[]> = {
   ],
   "ru_RU": [],
   "cs_CZ": [
+    "landing.contribute",
     "landing.headline",
     "landing.parseService",
     "landing.records",
@@ -72,6 +80,7 @@ export const pending: Record<string, readonly string[]> = {
     "landing.tools"
   ],
   "nl_NL": [
+    "landing.contribute",
     "landing.headline",
     "landing.parseService",
     "landing.records",
@@ -79,6 +88,7 @@ export const pending: Record<string, readonly string[]> = {
     "landing.tools"
   ],
   "pl_PL": [
+    "landing.contribute",
     "landing.headline",
     "landing.parseService",
     "landing.records",
@@ -86,6 +96,7 @@ export const pending: Record<string, readonly string[]> = {
     "landing.tools"
   ],
   "id_ID": [
+    "landing.contribute",
     "landing.headline",
     "landing.parseService",
     "landing.records",
@@ -93,6 +104,7 @@ export const pending: Record<string, readonly string[]> = {
     "landing.tools"
   ],
   "tr_TR": [
+    "landing.contribute",
     "landing.headline",
     "landing.parseService",
     "landing.records",
@@ -100,6 +112,7 @@ export const pending: Record<string, readonly string[]> = {
     "landing.tools"
   ],
   "sv_SE": [
+    "landing.contribute",
     "landing.headline",
     "landing.parseService",
     "landing.records",
@@ -107,6 +120,7 @@ export const pending: Record<string, readonly string[]> = {
     "landing.tools"
   ],
   "vi_VN": [
+    "landing.contribute",
     "landing.headline",
     "landing.parseService",
     "landing.records",
@@ -114,6 +128,7 @@ export const pending: Record<string, readonly string[]> = {
     "landing.tools"
   ],
   "da_DK": [
+    "landing.contribute",
     "landing.headline",
     "landing.parseService",
     "landing.records",

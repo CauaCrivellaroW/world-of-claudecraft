@@ -9743,7 +9743,8 @@ export const pt_BR: EnTranslations = {
     }
   },
   "landing": {
-    "headline": "Your story starts here.",
+    "headline": "Adventure with friends.",
+    "contribute": "Contribute to the game",
     "tools": "Tools",
     "records": "WoC Records",
     "scout": "WoC Scout",

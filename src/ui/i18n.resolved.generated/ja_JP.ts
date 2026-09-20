@@ -9744,6 +9744,7 @@ export const ja_JP: EnTranslations = {
   },
   "landing": {
     "headline": "あなたの物語は、ここから。",
+    "contribute": "ゲーム開発に参加する",
     "tools": "ツール",
     "records": "WoC 記録",
     "scout": "WoC スカウト",
