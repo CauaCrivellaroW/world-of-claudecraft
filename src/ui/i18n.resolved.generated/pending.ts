@@ -9,130 +9,25 @@
 // Reproducibility is checked by tests/i18n_resolved_equivalence.test.ts.
 
 export const pending: Record<string, readonly string[]> = {
-  "es": [
-    "landing.contribute",
-    "landing.headline",
-    "landing.parseService",
-    "landing.records",
-    "landing.scout",
-    "landing.tools"
-  ],
-  "es_ES": [
-    "landing.contribute",
-    "landing.headline",
-    "landing.parseService",
-    "landing.records",
-    "landing.scout",
-    "landing.tools"
-  ],
-  "fr_FR": [
-    "landing.contribute",
-    "landing.headline",
-    "landing.parseService",
-    "landing.records",
-    "landing.scout",
-    "landing.tools"
-  ],
-  "fr_CA": [
-    "landing.contribute",
-    "landing.headline",
-    "landing.parseService",
-    "landing.records",
-    "landing.scout",
-    "landing.tools"
-  ],
+  "es": [],
+  "es_ES": [],
+  "fr_FR": [],
+  "fr_CA": [],
   "en_CA": [],
-  "it_IT": [
-    "landing.contribute",
-    "landing.headline",
-    "landing.parseService",
-    "landing.records",
-    "landing.scout",
-    "landing.tools"
-  ],
-  "de_DE": [
-    "landing.contribute",
-    "landing.headline",
-    "landing.parseService",
-    "landing.records",
-    "landing.scout",
-    "landing.tools"
-  ],
+  "it_IT": [],
+  "de_DE": [],
   "zh_CN": [],
   "zh_TW": [],
   "ko_KR": [],
   "ja_JP": [],
-  "pt_BR": [
-    "landing.contribute",
-    "landing.headline",
-    "landing.parseService",
-    "landing.records",
-    "landing.scout",
-    "landing.tools"
-  ],
+  "pt_BR": [],
   "ru_RU": [],
-  "cs_CZ": [
-    "landing.contribute",
-    "landing.headline",
-    "landing.parseService",
-    "landing.records",
-    "landing.scout",
-    "landing.tools"
-  ],
-  "nl_NL": [
-    "landing.contribute",
-    "landing.headline",
-    "landing.parseService",
-    "landing.records",
-    "landing.scout",
-    "landing.tools"
-  ],
-  "pl_PL": [
-    "landing.contribute",
-    "landing.headline",
-    "landing.parseService",
-    "landing.records",
-    "landing.scout",
-    "landing.tools"
-  ],
-  "id_ID": [
-    "landing.contribute",
-    "landing.headline",
-    "landing.parseService",
-    "landing.records",
-    "landing.scout",
-    "landing.tools"
-  ],
-  "tr_TR": [
-    "landing.contribute",
-    "landing.headline",
-    "landing.parseService",
-    "landing.records",
-    "landing.scout",
-    "landing.tools"
-  ],
-  "sv_SE": [
-    "landing.contribute",
-    "landing.headline",
-    "landing.parseService",
-    "landing.records",
-    "landing.scout",
-    "landing.tools"
-  ],
-  "vi_VN": [
-    "landing.contribute",
-    "landing.headline",
-    "landing.parseService",
-    "landing.records",
-    "landing.scout",
-    "landing.tools"
-  ],
-  "da_DK": [
-    "landing.contribute",
-    "landing.headline",
-    "landing.parseService",
-    "landing.records",
-    "landing.scout",
-    "landing.tools"
-  ]
+  "cs_CZ": [],
+  "nl_NL": [],
+  "pl_PL": [],
+  "id_ID": [],
+  "tr_TR": [],
+  "sv_SE": [],
+  "vi_VN": [],
+  "da_DK": []
 };

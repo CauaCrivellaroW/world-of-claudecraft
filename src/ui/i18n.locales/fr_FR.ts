@@ -13,6 +13,12 @@
 import type { TranslationKey } from '../i18n.catalog';
 
 export const fr_FR: Partial<Record<TranslationKey, string>> = {
+  'landing.headline': "Partez à l'aventure entre amis.",
+  'landing.contribute': 'Contribuer au jeu',
+  'landing.tools': 'Outils',
+  'landing.records': 'Records WoC',
+  'landing.scout': 'WoC Éclaireur',
+  'landing.parseService': 'Service de parses WoC',
   'hud.errors.cannotCastWhileMoving': 'Vous ne pouvez pas lancer de sort en vous déplaçant.',
   'hudChrome.auraEffect.wolfForm':
     'Forme de chat : dégâts de mêlée et énergie ; vitesse de déplacement augmentée de {pct}%',
@@ -5683,7 +5689,7 @@ export const fr_FR: Partial<Record<TranslationKey, string>> = {
   'hudChrome.unitFrame.targetLabel': 'Votre cible',
   'seo.officialLabel': 'Site officiel de World of ClaudeCraft',
   'seo.officialBody':
-    'worldofclaudecraft.com est le MMO gratuit officiel sur navigateur du monde Claudemoon. Jouez en ligne avec un personnage persistant, explorez en solo hors ligne, lisez le wiki et suivez les liens communautaires vérifiés depuis ce site.',
+    'Le site officiel de World of ClaudeCraft. Jouez en ligne, lisez le wiki et retrouvez ici les liens de la communauté.',
   'hudChrome.questShare.notShareable': 'Cette quête ne peut pas être partagée.',
   'hudChrome.questShare.notInSharerParty':
     'Vous devez être dans le groupe de {name} pour accepter cette quête.',
@@ -6063,11 +6069,11 @@ export const fr_FR: Partial<Record<TranslationKey, string>> = {
   'news.title': 'Actualités et mises à jour',
   'news.desc':
     'Lisez les dernières notes de mise à jour, les événements et les nouvelles de la communauté.',
-  'download.title': 'Télécharger le lanceur de bureau',
+  'download.title': "Télécharger l'application de bureau",
   'download.macCta': 'Telecharger pour macOS',
   'download.windowsPending': 'Build Windows en attente.',
   'download.desc':
-    'Obtenez le lanceur autonome pour des performances optimisées et un jeu en plein écran.',
+    'Jouez sur Windows, macOS ou Linux avec le même compte et les mêmes personnages.',
   'comingSoon.placeholder': 'Bientôt disponible...',
   'comingSoon.featureComingSoon': 'Cette fonctionnalité sera bientôt disponible dans le monde.',
   'mode.onlineTitle': 'Jouer en ligne',
@@ -6080,7 +6086,7 @@ export const fr_FR: Partial<Record<TranslationKey, string>> = {
   'mode.offlineAria': 'Jouer hors ligne: démarrer une session solo locale instantanée',
   'mode.tipTitle': 'CONSEIL:',
   'mode.tipText':
-    'Pour une expérience optimale, désactivez les extensions de blocage de publicité sur ce site. Certains bloqueurs peuvent causer des latences.',
+    'Le jeu est lent ? Essayez de désactiver votre bloqueur de publicités sur ce site.',
   'auth.enterRealm': 'Entrer dans le monde',
   'auth.username': "Nom d'utilisateur",
   'auth.usernameError': "Veuillez saisir votre nom d'utilisateur.",
@@ -6317,7 +6323,7 @@ export const fr_FR: Partial<Record<TranslationKey, string>> = {
   'controls.chat': 'Ouvrir le chat',
   'seo.title': 'World of ClaudeCraft: MMO web de style classique',
   'seo.description':
-    'Partez pour une aventure épique dans World of ClaudeCraft, un micro-MMO au style classique jouable directement dans votre navigateur. Rejoignez un monde persistant, progressez en classe et terrassez vos ennemis.',
+    'Jouez à World of ClaudeCraft, un MMO gratuit sur navigateur. Explorez, accomplissez des quêtes et parcourez des donjons entre amis. Aucun téléchargement requis.',
   'seo.genre': 'MMORPG',
   'seo.playMode': 'Multijoueur',
   'seo.applicationCategory': 'Jeu',
@@ -9740,7 +9746,7 @@ export const fr_FR: Partial<Record<TranslationKey, string>> = {
   'guide.home.group.sub':
     'Le monde se parcourt en solo, mais le meilleur butin attend derrière un bon groupe.',
   'guide.home.subtitle':
-    'Partez en quête, formez un groupe et explorez un monde façonné à la main, gratuitement dans votre navigateur.',
+    'Explorez le monde, accomplissez des quêtes et affrontez des donjons entre amis.',
   'guide.home.title': 'World of ClaudeCraft',
   'guide.home.what.heading': 'Un MMO classique, conçu pour être pris en main',
   'guide.home.what.pillarClassesBody':

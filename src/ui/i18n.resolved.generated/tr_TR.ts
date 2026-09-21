@@ -5980,7 +5980,7 @@ export const tr_TR: EnTranslations = {
     "home": {
       "eyebrow": "Klasik tarz tarayıcı MMO'su",
       "title": "World of ClaudeCraft",
-      "subtitle": "Görev yap, grup kur ve elle kurulmuş bir dünyayı keşfet; tarayıcında ücretsiz.",
+      "subtitle": "Dünyayı keşfet, görevler üstlen ve arkadaşlarınla zindanlara gir.",
       "ctaPlay": "Şimdi Oyna",
       "ctaLearn": "Nasıl Oynanır",
       "what": {
@@ -8554,8 +8554,8 @@ export const tr_TR: EnTranslations = {
     "viewAll": "GitHub'daki tüm güncellemeleri görüntüle"
   },
   "download": {
-    "title": "Masaüstü Başlatıcısını İndir",
-    "desc": "Optimize edilmiş performans ve tam ekran oyun için bağımsız başlatıcıyı edinin.",
+    "title": "Masaüstü uygulamasını indir",
+    "desc": "Aynı hesap ve karakterlerle Windows, macOS veya Linux'ta oyna.",
     "macCta": "macOS için indir",
     "windowsCta": "Windows için indirin",
     "linuxCta": "Linux için indirin",
@@ -8574,7 +8574,7 @@ export const tr_TR: EnTranslations = {
     "offlineDesc": "Tarayıcınızda anında tek oyunculu dünya. Hiçbir şey kaydedilmez: hızlı bir kapışma veya test için ideal.",
     "offlineAria": "Çevrimdışı Oyna: anında yerel tek oyunculu oturum başlat",
     "tipTitle": "İPUCU:",
-    "tipText": "En akıcı deneyim için bu sitedeki reklam engelleyici eklentileri kapat. Topluluk bildirimlerine göre bazı engelleyiciler takılmaya yol açabiliyor.",
+    "tipText": "Oyun yavaş mı çalışıyor? Bu site için reklam engelleyicini kapatmayı dene.",
     "serverOnline": "Çevrimiçi",
     "serverOffline": "Çevrimdışı",
     "play": "Oyna",
@@ -9743,22 +9743,22 @@ export const tr_TR: EnTranslations = {
     }
   },
   "landing": {
-    "headline": "Adventure with friends.",
-    "contribute": "Contribute to the game",
-    "tools": "Tools",
-    "records": "WoC Records",
-    "scout": "WoC Scout",
-    "parseService": "WoC Parse Service"
+    "headline": "Arkadaşlarınla maceraya atıl.",
+    "contribute": "Oyuna katkıda bulun",
+    "tools": "Araçlar",
+    "records": "WoC Rekorlar",
+    "scout": "WoC Keşif",
+    "parseService": "WoC Parse Servisi"
   },
   "seo": {
     "title": "World of ClaudeCraft: Klasik Tarzı Web MMO'su",
-    "description": "Doğrudan tarayıcında oynanabilen klasik tarzı bir mikro MMO olan World of ClaudeCraft'ta destansı bir maceraya atıl. Kalıcı bir ortak dünyaya katıl, sınıfları geliştir ve düşmanları alt et!",
+    "description": "Ücretsiz bir tarayıcı MMO'su olan World of ClaudeCraft'ı oyna. Keşfet, görevleri tamamla ve arkadaşlarınla zindanlara gir. İndirmeye gerek yok.",
     "genre": "MMORPG",
     "playMode": "Çok Oyunculu",
     "applicationCategory": "Oyun",
     "operatingSystem": "Web tarayıcısı",
     "officialLabel": "Resmi World of ClaudeCraft web sitesi",
-    "officialBody": "worldofclaudecraft.com, Claudemoon dünyasının resmi ücretsiz tarayıcı MMO'sudur. Kalıcı bir karakterle çevrimiçi oyna, çevrimdışı tek başına keşfet, wiki'yi oku ve bu siteden doğrulanmış topluluk bağlantılarını takip et."
+    "officialBody": "World of ClaudeCraft'ın resmi sitesi. Çevrimiçi oyna, wiki'yi oku ve topluluk bağlantılarını burada bul."
   },
   "a11y": {
     "goHome": "Ana sayfaya git",

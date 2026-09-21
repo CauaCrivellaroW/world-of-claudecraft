@@ -2,6 +2,12 @@
 import type { TranslationKey } from '../i18n.catalog';
 
 export const nl_NL: Partial<Record<TranslationKey, string>> = {
+  'landing.headline': 'Op avontuur met vrienden.',
+  'landing.contribute': 'Draag bij aan het spel',
+  'landing.tools': 'Hulpmiddelen',
+  'landing.records': 'WoC-records',
+  'landing.scout': 'WoC-verkenner',
+  'landing.parseService': 'WoC-parseservice',
   'hud.errors.cannotCastWhileMoving': 'Je kunt geen spreuken uitspreken terwijl je beweegt.',
   'hudChrome.auraEffect.wolfForm':
     'Katgedaante: melee-schade en energie; bewegingssnelheid verhoogd met {pct}%',
@@ -5465,8 +5471,8 @@ export const nl_NL: Partial<Record<TranslationKey, string>> = {
   'delveUi.tracker.module': 'Module {current} van {total}',
   'delveUi.tracker.objective': 'Doel',
   'delveUi.tracker.title': 'Delve',
-  'download.desc': 'Download de losse launcher voor optimale prestaties en schermvullend spelen.',
-  'download.title': 'Desktop-launcher downloaden',
+  'download.desc': 'Speel op Windows, macOS of Linux met hetzelfde account en dezelfde personages.',
+  'download.title': 'Download de desktop-app',
   'download.macCta': 'Download voor macOS',
   'download.windowsPending': 'Windows-build volgt later.',
   'entities.abilities.adrenaline_rush.description':
@@ -7893,8 +7899,7 @@ export const nl_NL: Partial<Record<TranslationKey, string>> = {
   'guide.home.group.raidTitle': 'De raid',
   'guide.home.group.sub':
     'De wereld is solo te spelen, maar de beste buit wacht achter een goede groep.',
-  'guide.home.subtitle':
-    'Quest, sluit je aaneen en verken een handgebouwde wereld, gratis in je browser.',
+  'guide.home.subtitle': 'Verken de wereld, voltooi quests en trotseer dungeons met vrienden.',
   'guide.home.title': 'World of ClaudeCraft',
   'guide.home.what.heading': 'Een klassieke MMO, gemaakt om zo op te pakken',
   'guide.home.what.pillarClassesBody':
@@ -9778,8 +9783,7 @@ export const nl_NL: Partial<Record<TranslationKey, string>> = {
   'mode.serverOffline': 'Offline',
   'mode.serverOfflineSub': 'Directe lokale wereld',
   'mode.serverOnline': 'Online',
-  'mode.tipText':
-    'Voor de soepelste ervaring kun je adblocker-extensies op deze site uitschakelen. Volgens meldingen uit de community kunnen sommige blockers vertraging veroorzaken.',
+  'mode.tipText': 'Loopt het spel traag? Probeer je adblocker voor deze site uit te schakelen.',
   'mode.tipTitle': 'TIP:',
   'nav.about': 'Over',
   'nav.account': 'Account',
@@ -9933,10 +9937,10 @@ export const nl_NL: Partial<Record<TranslationKey, string>> = {
   'realmTypes.rpPvp': 'RP-PvP',
   'seo.applicationCategory': 'Spel',
   'seo.description':
-    'Begin aan een episch avontuur in World of ClaudeCraft, een micro-MMO in klassieke stijl die je rechtstreeks in je browser kunt spelen. Sluit je aan bij een blijvende gedeelde wereld, level je klassen op en versla vijanden!',
+    'Speel World of ClaudeCraft, een gratis browser-MMO. Verken de wereld, voltooi quests en trotseer dungeons met vrienden. Geen download nodig.',
   'seo.genre': 'MMORPG',
   'seo.officialBody':
-    'worldofclaudecraft.com is de officiële gratis browser-MMO voor de Claudemoon-wereld. Speel online met een blijvend personage, verken solo offline, lees de wiki en volg geverifieerde communitylinks vanaf deze site.',
+    'De officiële website van World of ClaudeCraft. Speel online, lees de wiki en vind hier de communitylinks.',
   'seo.officialLabel': 'Officiële website van World of ClaudeCraft',
   'seo.operatingSystem': 'Webbrowser',
   'seo.playMode': 'Multiplayer',

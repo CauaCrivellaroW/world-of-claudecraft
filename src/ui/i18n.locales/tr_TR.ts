@@ -2,6 +2,12 @@
 import type { TranslationKey } from '../i18n.catalog';
 
 export const tr_TR: Partial<Record<TranslationKey, string>> = {
+  'landing.headline': 'Arkadaşlarınla maceraya atıl.',
+  'landing.contribute': 'Oyuna katkıda bulun',
+  'landing.tools': 'Araçlar',
+  'landing.records': 'WoC Rekorlar',
+  'landing.scout': 'WoC Keşif',
+  'landing.parseService': 'WoC Parse Servisi',
   'hud.errors.cannotCastWhileMoving': 'Hareket ederken büyü yapamazsın.',
   'hudChrome.auraEffect.wolfForm':
     'Kedi Formu: yakın dövüş hasarı ve enerji; hareket hızı %{pct} artar',
@@ -5335,9 +5341,8 @@ export const tr_TR: Partial<Record<TranslationKey, string>> = {
   'delveUi.tracker.module': 'Bölüm {current} / {total}',
   'delveUi.tracker.objective': 'Hedef',
   'delveUi.tracker.title': 'Mağara',
-  'download.desc':
-    'Optimize edilmiş performans ve tam ekran oyun için bağımsız başlatıcıyı edinin.',
-  'download.title': 'Masaüstü Başlatıcısını İndir',
+  'download.desc': "Aynı hesap ve karakterlerle Windows, macOS veya Linux'ta oyna.",
+  'download.title': 'Masaüstü uygulamasını indir',
   'download.macCta': 'macOS için indir',
   'download.windowsPending': 'Windows derlemesi beklemede.',
   'entities.abilities.adrenaline_rush.description':
@@ -8473,8 +8478,7 @@ export const tr_TR: Partial<Record<TranslationKey, string>> = {
   'guide.home.group.raidTitle': 'Akın',
   'guide.home.group.sub':
     'Dünya tek başına aşılabilir, ama en iyi ganimet iyi bir grubun ardında bekler.',
-  'guide.home.subtitle':
-    'Görev yap, grup kur ve elle kurulmuş bir dünyayı keşfet; tarayıcında ücretsiz.',
+  'guide.home.subtitle': 'Dünyayı keşfet, görevler üstlen ve arkadaşlarınla zindanlara gir.',
   'guide.home.title': 'World of ClaudeCraft',
   'guide.home.what.heading': 'Klasik bir MMO, hemen başlanacak biçimde',
   'guide.home.what.pillarClassesBody':
@@ -10291,8 +10295,7 @@ export const tr_TR: Partial<Record<TranslationKey, string>> = {
   'mode.serverOffline': 'Çevrimdışı',
   'mode.serverOfflineSub': 'Anında yerel dünya',
   'mode.serverOnline': 'Çevrimiçi',
-  'mode.tipText':
-    'En akıcı deneyim için bu sitedeki reklam engelleyici eklentileri kapat. Topluluk bildirimlerine göre bazı engelleyiciler takılmaya yol açabiliyor.',
+  'mode.tipText': 'Oyun yavaş mı çalışıyor? Bu site için reklam engelleyicini kapatmayı dene.',
   'mode.tipTitle': 'İPUCU:',
   'nav.about': 'Hakkında',
   'nav.account': 'Hesap',
@@ -10444,10 +10447,10 @@ export const tr_TR: Partial<Record<TranslationKey, string>> = {
   'realmTypes.rpPvp': 'RP-PvP',
   'seo.applicationCategory': 'Oyun',
   'seo.description':
-    "Doğrudan tarayıcında oynanabilen klasik tarzı bir mikro MMO olan World of ClaudeCraft'ta destansı bir maceraya atıl. Kalıcı bir ortak dünyaya katıl, sınıfları geliştir ve düşmanları alt et!",
+    "Ücretsiz bir tarayıcı MMO'su olan World of ClaudeCraft'ı oyna. Keşfet, görevleri tamamla ve arkadaşlarınla zindanlara gir. İndirmeye gerek yok.",
   'seo.genre': 'MMORPG',
   'seo.officialBody':
-    "worldofclaudecraft.com, Claudemoon dünyasının resmi ücretsiz tarayıcı MMO'sudur. Kalıcı bir karakterle çevrimiçi oyna, çevrimdışı tek başına keşfet, wiki'yi oku ve bu siteden doğrulanmış topluluk bağlantılarını takip et.",
+    "World of ClaudeCraft'ın resmi sitesi. Çevrimiçi oyna, wiki'yi oku ve topluluk bağlantılarını burada bul.",
   'seo.officialLabel': 'Resmi World of ClaudeCraft web sitesi',
   'seo.operatingSystem': 'Web tarayıcısı',
   'seo.playMode': 'Çok Oyunculu',

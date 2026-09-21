@@ -5980,7 +5980,7 @@ export const nl_NL: EnTranslations = {
     "home": {
       "eyebrow": "Klassieke MMO in je browser",
       "title": "World of ClaudeCraft",
-      "subtitle": "Quest, sluit je aaneen en verken een handgebouwde wereld, gratis in je browser.",
+      "subtitle": "Verken de wereld, voltooi quests en trotseer dungeons met vrienden.",
       "ctaPlay": "Speel nu",
       "ctaLearn": "Hoe te spelen",
       "what": {
@@ -8554,8 +8554,8 @@ export const nl_NL: EnTranslations = {
     "viewAll": "Bekijk alle updates op GitHub"
   },
   "download": {
-    "title": "Desktop-launcher downloaden",
-    "desc": "Download de losse launcher voor optimale prestaties en schermvullend spelen.",
+    "title": "Download de desktop-app",
+    "desc": "Speel op Windows, macOS of Linux met hetzelfde account en dezelfde personages.",
     "macCta": "Download voor macOS",
     "windowsCta": "Downloaden voor Windows",
     "linuxCta": "Downloaden voor Linux",
@@ -8574,7 +8574,7 @@ export const nl_NL: EnTranslations = {
     "offlineDesc": "Direct een singleplayer-wereld in je browser. Er wordt niets opgeslagen: perfect voor een snel gevecht of om te testen.",
     "offlineAria": "Offline Spelen: start direct een lokale singleplayer-sessie",
     "tipTitle": "TIP:",
-    "tipText": "Voor de soepelste ervaring kun je adblocker-extensies op deze site uitschakelen. Volgens meldingen uit de community kunnen sommige blockers vertraging veroorzaken.",
+    "tipText": "Loopt het spel traag? Probeer je adblocker voor deze site uit te schakelen.",
     "serverOnline": "Online",
     "serverOffline": "Offline",
     "play": "Spelen",
@@ -9743,22 +9743,22 @@ export const nl_NL: EnTranslations = {
     }
   },
   "landing": {
-    "headline": "Adventure with friends.",
-    "contribute": "Contribute to the game",
-    "tools": "Tools",
-    "records": "WoC Records",
-    "scout": "WoC Scout",
-    "parseService": "WoC Parse Service"
+    "headline": "Op avontuur met vrienden.",
+    "contribute": "Draag bij aan het spel",
+    "tools": "Hulpmiddelen",
+    "records": "WoC-records",
+    "scout": "WoC-verkenner",
+    "parseService": "WoC-parseservice"
   },
   "seo": {
     "title": "World of ClaudeCraft: Web-MMO in Klassieke Stijl",
-    "description": "Begin aan een episch avontuur in World of ClaudeCraft, een micro-MMO in klassieke stijl die je rechtstreeks in je browser kunt spelen. Sluit je aan bij een blijvende gedeelde wereld, level je klassen op en versla vijanden!",
+    "description": "Speel World of ClaudeCraft, een gratis browser-MMO. Verken de wereld, voltooi quests en trotseer dungeons met vrienden. Geen download nodig.",
     "genre": "MMORPG",
     "playMode": "Multiplayer",
     "applicationCategory": "Spel",
     "operatingSystem": "Webbrowser",
     "officialLabel": "Officiële website van World of ClaudeCraft",
-    "officialBody": "worldofclaudecraft.com is de officiële gratis browser-MMO voor de Claudemoon-wereld. Speel online met een blijvend personage, verken solo offline, lees de wiki en volg geverifieerde communitylinks vanaf deze site."
+    "officialBody": "De officiële website van World of ClaudeCraft. Speel online, lees de wiki en vind hier de communitylinks."
   },
   "a11y": {
     "goHome": "Ga naar de startpagina",

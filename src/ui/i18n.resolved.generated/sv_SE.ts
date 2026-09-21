@@ -5980,7 +5980,7 @@ export const sv_SE: EnTranslations = {
     "home": {
       "eyebrow": "Klassiskt MMO i webbläsaren",
       "title": "World of ClaudeCraft",
-      "subtitle": "Lös uppdrag, slå er samman och utforska en handbyggd värld, gratis i din webbläsare.",
+      "subtitle": "Utforska världen, ta dig an uppdrag och kämpa dig igenom dungeons med vänner.",
       "ctaPlay": "Spela nu",
       "ctaLearn": "Så spelar du",
       "what": {
@@ -8554,8 +8554,8 @@ export const sv_SE: EnTranslations = {
     "viewAll": "Se alla uppdateringar på GitHub"
   },
   "download": {
-    "title": "Ladda ner skrivbordsstartaren",
-    "desc": "Hämta den fristående startaren för optimerad prestanda och spel i helskärm.",
+    "title": "Ladda ner skrivbordsappen",
+    "desc": "Spela på Windows, macOS eller Linux med samma konto och samma karaktärer.",
     "macCta": "Ladda ner för macOS",
     "windowsCta": "Ladda ner för Windows",
     "linuxCta": "Ladda ner för Linux",
@@ -8574,7 +8574,7 @@ export const sv_SE: EnTranslations = {
     "offlineDesc": "Omedelbar enspelarvärld i din webbläsare. Inget sparas: perfekt för en snabb drabbning eller testning.",
     "offlineAria": "Spela offline: starta en omedelbar lokal enspelarsession",
     "tipTitle": "TIPS:",
-    "tipText": "För den smidigaste upplevelsen, stäng av annonsblockerartillägg på den här sidan. Användarrapporter har visat att vissa blockerare kan orsaka fördröjning.",
+    "tipText": "Går spelet långsamt? Prova att stänga av din annonsblockerare för den här sidan.",
     "serverOnline": "Online",
     "serverOffline": "Offline",
     "play": "Spela",
@@ -9743,22 +9743,22 @@ export const sv_SE: EnTranslations = {
     }
   },
   "landing": {
-    "headline": "Adventure with friends.",
-    "contribute": "Contribute to the game",
-    "tools": "Tools",
-    "records": "WoC Records",
-    "scout": "WoC Scout",
-    "parseService": "WoC Parse Service"
+    "headline": "Äventyr med vänner.",
+    "contribute": "Bidra till spelet",
+    "tools": "Verktyg",
+    "records": "WoC Rekord",
+    "scout": "WoC Spejare",
+    "parseService": "WoC Parse-tjänst"
   },
   "seo": {
     "title": "World of ClaudeCraft: Klassiskt inspirerad webb-MMO",
-    "description": "Ge dig ut på ett episkt äventyr i World of ClaudeCraft, en klassiskt inspirerad mikro-MMO som du spelar direkt i din webbläsare. Anslut till en beständig delad värld, höj nivå på klasser och besegra fiender!",
+    "description": "Spela World of ClaudeCraft, en gratis MMO i webbläsaren. Utforska, gör uppdrag och ta dig igenom dungeons med vänner. Ingen nedladdning krävs.",
     "genre": "MMORPG",
     "playMode": "Flerspelarläge",
     "applicationCategory": "Spel",
     "operatingSystem": "Webbläsare",
     "officialLabel": "Officiell webbplats för World of ClaudeCraft",
-    "officialBody": "worldofclaudecraft.com är den officiella gratis webbläsar-MMO:n för Claudemoon-världen. Spela online med en beständig karaktär, utforska solo offline, läs wikin och följ verifierade gemenskapslänkar från den här webbplatsen."
+    "officialBody": "Den officiella webbplatsen för World of ClaudeCraft. Spela online, läs wikin och hitta gemenskapslänkarna här."
   },
   "a11y": {
     "goHome": "Gå till startsidan",

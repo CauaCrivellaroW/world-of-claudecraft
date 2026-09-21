@@ -2,6 +2,12 @@
 import type { TranslationKey } from '../i18n.catalog';
 
 export const pl_PL: Partial<Record<TranslationKey, string>> = {
+  'landing.headline': 'Przygoda z przyjaciółmi.',
+  'landing.contribute': 'Współtwórz grę',
+  'landing.tools': 'Narzędzia',
+  'landing.records': 'WoC Rekordy',
+  'landing.scout': 'WoC Zwiadowca',
+  'landing.parseService': 'Serwis parsów WoC',
   'hud.errors.cannotCastWhileMoving': 'Nie możesz rzucać zaklęć podczas ruchu.',
   'hudChrome.auraEffect.wolfForm':
     'Postać kota: obrażenia w zwarciu i energia; prędkość ruchu zwiększona o {pct}%',
@@ -5399,8 +5405,8 @@ export const pl_PL: Partial<Record<TranslationKey, string>> = {
   'delveUi.tracker.objective': 'Cel',
   'delveUi.tracker.title': 'Wyprawa',
   'download.desc':
-    'Pobierz samodzielny launcher dla zoptymalizowanej wydajności i gry na pełnym ekranie.',
-  'download.title': 'Pobierz launcher na komputer',
+    'Graj na Windowsie, macOS lub Linuksie z tym samym kontem i tymi samymi postaciami.',
+  'download.title': 'Pobierz aplikację na komputer',
   'download.macCta': 'Pobierz dla macOS',
   'download.windowsPending': 'Build Windows w przygotowaniu.',
   'entities.abilities.adrenaline_rush.description':
@@ -7910,8 +7916,7 @@ export const pl_PL: Partial<Record<TranslationKey, string>> = {
   'guide.home.group.raidTitle': 'Rajd',
   'guide.home.group.sub':
     'Świat da się przejść w pojedynkę, ale najlepszy łup czeka na dobrą drużynę.',
-  'guide.home.subtitle':
-    'Wykonuj zadania, zbieraj drużynę i odkrywaj ręcznie tworzony świat, za darmo w przeglądarce.',
+  'guide.home.subtitle': 'Odkrywaj świat, wykonuj zadania i pokonuj lochy razem z przyjaciółmi.',
   'guide.home.title': 'World of ClaudeCraft',
   'guide.home.what.heading': 'Klasyczne MMO, stworzone, by od razu w nie zagrać',
   'guide.home.what.pillarClassesBody':
@@ -9777,8 +9782,7 @@ export const pl_PL: Partial<Record<TranslationKey, string>> = {
   'mode.serverOffline': 'Offline',
   'mode.serverOfflineSub': 'Natychmiastowy lokalny świat',
   'mode.serverOnline': 'Online',
-  'mode.tipText':
-    'Aby zapewnić najpłynniejszą rozgrywkę, wyłącz rozszerzenia blokujące reklamy na tej stronie. Według zgłoszeń społeczności niektóre blokery mogą powodować opóźnienia.',
+  'mode.tipText': 'Gra działa wolno? Spróbuj wyłączyć blokowanie reklam na tej stronie.',
   'mode.tipTitle': 'WSKAZÓWKA:',
   'nav.about': 'O grze',
   'nav.account': 'Konto',
@@ -9932,10 +9936,10 @@ export const pl_PL: Partial<Record<TranslationKey, string>> = {
   'realmTypes.rpPvp': 'RP-PvP',
   'seo.applicationCategory': 'Gra',
   'seo.description':
-    'Wyrusz na epicką przygodę w World of ClaudeCraft, klasycznym mikro-MMO grywalnym bezpośrednio w przeglądarce. Dołącz do trwałego wspólnego świata, rozwijaj klasy postaci i pokonuj wrogów!',
+    'Graj w World of ClaudeCraft, darmowe MMO w przeglądarce. Odkrywaj świat, wykonuj zadania i przemierzaj lochy z przyjaciółmi. Bez pobierania.',
   'seo.genre': 'MMORPG',
   'seo.officialBody':
-    'worldofclaudecraft.com to oficjalne, darmowe przeglądarkowe MMO dla świata Claudemoon. Graj online z trwałą postacią, eksploruj solo w trybie offline, czytaj wiki i śledź zweryfikowane linki społeczności z tej strony.',
+    'Oficjalna strona World of ClaudeCraft. Graj online, czytaj wiki i znajdź tu linki społeczności.',
   'seo.officialLabel': 'Oficjalna strona World of ClaudeCraft',
   'seo.operatingSystem': 'Przeglądarka internetowa',
   'seo.playMode': 'Wieloosobowy',

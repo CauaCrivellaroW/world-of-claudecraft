@@ -5980,7 +5980,7 @@ export const pl_PL: EnTranslations = {
     "home": {
       "eyebrow": "Klasyczne MMO w przeglądarce",
       "title": "World of ClaudeCraft",
-      "subtitle": "Wykonuj zadania, zbieraj drużynę i odkrywaj ręcznie tworzony świat, za darmo w przeglądarce.",
+      "subtitle": "Odkrywaj świat, wykonuj zadania i pokonuj lochy razem z przyjaciółmi.",
       "ctaPlay": "Zagraj teraz",
       "ctaLearn": "Jak grać",
       "what": {
@@ -8554,8 +8554,8 @@ export const pl_PL: EnTranslations = {
     "viewAll": "Zobacz wszystkie aktualizacje na GitHubie"
   },
   "download": {
-    "title": "Pobierz launcher na komputer",
-    "desc": "Pobierz samodzielny launcher dla zoptymalizowanej wydajności i gry na pełnym ekranie.",
+    "title": "Pobierz aplikację na komputer",
+    "desc": "Graj na Windowsie, macOS lub Linuksie z tym samym kontem i tymi samymi postaciami.",
     "macCta": "Pobierz dla macOS",
     "windowsCta": "Pobierz dla Windows",
     "linuxCta": "Pobierz dla Linuksa",
@@ -8574,7 +8574,7 @@ export const pl_PL: EnTranslations = {
     "offlineDesc": "Natychmiastowy świat jednoosobowy w twojej przeglądarce. Nic nie jest zapisywane: idealny na szybką potyczkę lub testy.",
     "offlineAria": "Graj offline: rozpocznij natychmiastową lokalną sesję jednoosobową",
     "tipTitle": "WSKAZÓWKA:",
-    "tipText": "Aby zapewnić najpłynniejszą rozgrywkę, wyłącz rozszerzenia blokujące reklamy na tej stronie. Według zgłoszeń społeczności niektóre blokery mogą powodować opóźnienia.",
+    "tipText": "Gra działa wolno? Spróbuj wyłączyć blokowanie reklam na tej stronie.",
     "serverOnline": "Online",
     "serverOffline": "Offline",
     "play": "Graj",
@@ -9743,22 +9743,22 @@ export const pl_PL: EnTranslations = {
     }
   },
   "landing": {
-    "headline": "Adventure with friends.",
-    "contribute": "Contribute to the game",
-    "tools": "Tools",
-    "records": "WoC Records",
-    "scout": "WoC Scout",
-    "parseService": "WoC Parse Service"
+    "headline": "Przygoda z przyjaciółmi.",
+    "contribute": "Współtwórz grę",
+    "tools": "Narzędzia",
+    "records": "WoC Rekordy",
+    "scout": "WoC Zwiadowca",
+    "parseService": "Serwis parsów WoC"
   },
   "seo": {
     "title": "World of ClaudeCraft: klasyczne przeglądarkowe MMO",
-    "description": "Wyrusz na epicką przygodę w World of ClaudeCraft, klasycznym mikro-MMO grywalnym bezpośrednio w przeglądarce. Dołącz do trwałego wspólnego świata, rozwijaj klasy postaci i pokonuj wrogów!",
+    "description": "Graj w World of ClaudeCraft, darmowe MMO w przeglądarce. Odkrywaj świat, wykonuj zadania i przemierzaj lochy z przyjaciółmi. Bez pobierania.",
     "genre": "MMORPG",
     "playMode": "Wieloosobowy",
     "applicationCategory": "Gra",
     "operatingSystem": "Przeglądarka internetowa",
     "officialLabel": "Oficjalna strona World of ClaudeCraft",
-    "officialBody": "worldofclaudecraft.com to oficjalne, darmowe przeglądarkowe MMO dla świata Claudemoon. Graj online z trwałą postacią, eksploruj solo w trybie offline, czytaj wiki i śledź zweryfikowane linki społeczności z tej strony."
+    "officialBody": "Oficjalna strona World of ClaudeCraft. Graj online, czytaj wiki i znajdź tu linki społeczności."
   },
   "a11y": {
     "goHome": "Przejdź do strony głównej",

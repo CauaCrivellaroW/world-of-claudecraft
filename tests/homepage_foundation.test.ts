@@ -54,7 +54,7 @@ describe('i18n Translation Foundation', () => {
     expect(t('highscores.title')).toBe('Clasificaciones de Puntuación');
     expect(t('wiki.title')).toBe('Wiki y Guía del Juego');
     expect(t('news.title')).toBe('Noticias y Actualizaciones');
-    expect(t('download.title')).toBe('Descargar Lanzador de Escritorio');
+    expect(t('download.title')).toBe('Descarga la app de escritorio');
   });
 
   it('supports and retrieves translations for all newly added locales', async () => {

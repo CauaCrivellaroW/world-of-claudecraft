@@ -16,7 +16,7 @@ export const ru_RU: Partial<Record<TranslationKey, string>> = {
   'hudChrome.noticeboard.officerEntry': '{name} ({rank})',
   'hudChrome.professionTrainers.nameplate': '<{title}>',
   'landing.contribute': 'Участвовать в разработке игры',
-  'landing.headline': 'Твоя история начинается здесь.',
+  'landing.headline': 'Приключения вместе с друзьями.',
   'landing.tools': 'Инструменты',
   'landing.records': 'WoC Рекорды',
   'landing.scout': 'WoC Разведка',
@@ -1183,8 +1183,7 @@ export const ru_RU: Partial<Record<TranslationKey, string>> = {
   'hudChrome.unitFrame.targetAnnounce': 'Цель: {name}',
   'hudChrome.unitFrame.targetLabel': 'Ваша цель',
   'seo.officialLabel': 'Официальный сайт World of ClaudeCraft',
-  'seo.officialBody':
-    'worldofclaudecraft.com - официальная бесплатная браузерная MMO для мира Claudemoon. Играйте онлайн с постоянным персонажем, исследуйте мир в одиночку офлайн, читайте wiki и переходите по проверенным ссылкам сообщества с этого сайта.',
+  'seo.officialBody': 'Официальный сайт World of ClaudeCraft. Играйте онлайн, читайте wiki и находите здесь ссылки сообщества.',
   'hudChrome.questShare.notShareable': 'Этим заданием нельзя поделиться.',
   'hudChrome.questShare.notInSharerParty':
     'Вы должны состоять в группе игрока {name}, чтобы принять это задание.',
@@ -2044,15 +2043,14 @@ export const ru_RU: Partial<Record<TranslationKey, string>> = {
   'wiki.desc': 'Откройте секреты игрового мира, руководства по классам и стратегии.',
   'news.title': 'Новости и обновления',
   'news.desc': 'Читайте описание последних обновлений, информацию о событиях и новости сообщества.',
-  'download.title': 'Скачать загрузчик для ПК',
+  'download.title': 'Скачать приложение для ПК',
   'download.macCta': 'Скачать для macOS',
   'download.linuxCta': 'Скачать для Linux',
   'download.linuxHint':
     'Формат AppImage: сделайте файл исполняемым и запустите его, установка не требуется.',
   'download.windowsCta': 'Скачать для Windows',
   'download.windowsPending': 'Сборка для Windows готовится.',
-  'download.desc':
-    'Загрузите отдельный клиент для оптимальной производительности и игры на весь экран.',
+  'download.desc': 'Играйте на Windows, macOS или Linux с той же учётной записью и теми же персонажами.',
   'comingSoon.placeholder': 'Скоро...',
   'comingSoon.featureComingSoon': 'Эта функция скоро появится в игре.',
   'mode.onlineTitle': 'Играть по сети',
@@ -2064,8 +2062,7 @@ export const ru_RU: Partial<Record<TranslationKey, string>> = {
     'Мгновенный одиночный мир прямо в браузере. Прогресс не сохраняется: идеально для быстрой драки или тестирования.',
   'mode.offlineAria': 'Играть вне сети: запуск мгновенного локального одиночного сеанса',
   'mode.tipTitle': 'СОВЕТ:',
-  'mode.tipText':
-    'Для максимально плавной игры отключите блокировщики рекламы на этом сайте. По отзывам сообщества, некоторые блокировщики могут вызывать задержки.',
+  'mode.tipText': 'Игра работает медленно? Попробуйте отключить блокировщик рекламы для этого сайта.',
   'auth.enterRealm': 'Войти в игровой мир',
   'auth.username': 'Имя пользователя',
   'auth.usernameError': 'Пожалуйста, введите имя пользователя.',
@@ -2351,8 +2348,7 @@ export const ru_RU: Partial<Record<TranslationKey, string>> = {
   'controls.friends': 'Друзья и гильдия',
   'controls.chat': 'Открыть чат',
   'seo.title': 'World of ClaudeCraft: веб-MMO в классическом стиле',
-  'seo.description':
-    'Отправьтесь в эпическое приключение в World of ClaudeCraft, микро-MMO в классическом стиле прямо в браузере. Присоединяйтесь к постоянному общему миру, развивайте классы и побеждайте врагов.',
+  'seo.description': 'Играйте в World of ClaudeCraft, бесплатную браузерную MMO. Исследуйте мир, выполняйте задания и проходите подземелья с друзьями. Без скачивания.',
   'seo.genre': 'MMORPG',
   'seo.playMode': 'Многопользовательская игра',
   'seo.applicationCategory': 'Игра',
@@ -6970,8 +6966,7 @@ export const ru_RU: Partial<Record<TranslationKey, string>> = {
   'guide.language.select': 'Выберите язык',
   'guide.home.eyebrow': 'Классическая браузерная MMO',
   'guide.home.title': 'World of ClaudeCraft',
-  'guide.home.subtitle':
-    'Выполняйте задания, объединяйтесь в группы и исследуйте созданный вручную мир бесплатно прямо в браузере.',
+  'guide.home.subtitle': 'Исследуйте мир, выполняйте задания и проходите подземелья с друзьями.',
   'guide.home.ctaPlay': 'Играть',
   'guide.home.ctaLearn': 'Как играть',
   'guide.home.what.heading': 'Классическая MMO, в которую легко погрузиться',
