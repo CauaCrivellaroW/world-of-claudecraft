@@ -5980,7 +5980,7 @@ export const ko_KR: EnTranslations = {
     "home": {
       "eyebrow": "클래식 스타일 브라우저 MMO",
       "title": "World of ClaudeCraft",
-      "subtitle": "퀘스트를 수행하고, 파티를 맺고, 손수 빚은 세계를 브라우저에서 무료로 탐험하세요.",
+      "subtitle": "세계를 탐험하고, 퀘스트를 수행하고, 친구들과 던전에 도전하세요.",
       "ctaPlay": "지금 플레이",
       "ctaLearn": "플레이 방법",
       "what": {
@@ -8554,8 +8554,8 @@ export const ko_KR: EnTranslations = {
     "viewAll": "GitHub에서 모든 업데이트 보기"
   },
   "download": {
-    "title": "데스크톱 런처 다운로드",
-    "desc": "최적화된 성능과 전체 화면 플레이를 위해 독립형 런처를 다운로드하세요.",
+    "title": "데스크톱 앱 다운로드",
+    "desc": "같은 계정과 캐릭터로 Windows, macOS, Linux에서 플레이하세요.",
     "macCta": "macOS용 다운로드",
     "windowsCta": "Windows용 다운로드",
     "linuxCta": "Linux용 다운로드",
@@ -8574,7 +8574,7 @@ export const ko_KR: EnTranslations = {
     "offlineDesc": "브라우저에서 즉시 일인용 세상을 플레이합니다. 아무것도 저장되지 않아 빠른 전투나 연습에 적합합니다.",
     "offlineAria": "오프라인 플레이: 즉각적인 로컬 싱글 플레이 세션을 시작합니다",
     "tipTitle": "팁:",
-    "tipText": "가장 원활한 이용을 위해 이 웹사이트의 광고 차단기 확장 프로그램을 비활성화해 주세요. 일부 차단기가 게임 성능 지연을 유발할 수 있습니다.",
+    "tipText": "게임이 느린가요? 이 사이트에서 광고 차단기를 꺼 보세요.",
     "serverOnline": "온라인",
     "serverOffline": "오프라인",
     "play": "플레이",
@@ -9742,15 +9742,23 @@ export const ko_KR: EnTranslations = {
       "dodge": "회피!"
     }
   },
+  "landing": {
+    "headline": "친구들과 함께 모험을 떠나세요.",
+    "contribute": "게임 개발에 기여하기",
+    "tools": "도구",
+    "records": "WoC 기록",
+    "scout": "WoC 정찰",
+    "parseService": "WoC 전투 기록"
+  },
   "seo": {
     "title": "World of ClaudeCraft: 클래식 스타일 웹 MMO",
-    "description": "브라우저에서 바로 즐기는 클래식 스타일 마이크로 MMO, World of ClaudeCraft에서 장대한 모험을 시작하세요. 지속되는 공유 월드에 접속해 직업을 성장시키고 적을 물리치세요.",
+    "description": "무료 브라우저 MMO, World of ClaudeCraft를 플레이하세요. 세계를 탐험하고, 퀘스트를 완료하고, 친구들과 던전을 공략하세요. 다운로드가 필요 없습니다.",
     "genre": "MMORPG",
     "playMode": "멀티플레이어",
     "applicationCategory": "게임",
     "operatingSystem": "웹 브라우저",
     "officialLabel": "World of ClaudeCraft 공식 웹사이트",
-    "officialBody": "worldofclaudecraft.com은 Claudemoon 월드의 공식 무료 브라우저 MMO입니다. 지속 캐릭터로 온라인 플레이를 하거나, 오프라인에서 혼자 탐험하고, 위키를 읽고, 이 사이트에서 검증된 커뮤니티 링크를 확인하세요."
+    "officialBody": "World of ClaudeCraft 공식 홈페이지. 온라인으로 플레이하고, 위키를 읽고, 커뮤니티 링크를 여기에서 찾아보세요."
   },
   "a11y": {
     "goHome": "홈으로 이동",

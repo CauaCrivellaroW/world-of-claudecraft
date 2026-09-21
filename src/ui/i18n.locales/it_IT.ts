@@ -13,6 +13,12 @@
 import type { TranslationKey } from '../i18n.catalog';
 
 export const it_IT: Partial<Record<TranslationKey, string>> = {
+  'landing.headline': "All'avventura con gli amici.",
+  'landing.contribute': 'Contribuisci al gioco',
+  'landing.tools': 'Strumenti',
+  'landing.records': 'WoC Record',
+  'landing.scout': 'WoC Esploratore',
+  'landing.parseService': 'Servizio parse WoC',
   'hud.errors.cannotCastWhileMoving': 'Non puoi lanciare incantesimi mentre sei in movimento.',
   'hudChrome.auraEffect.wolfForm':
     'Forma del Gatto: danno da mischia ed energia; velocità di movimento aumentata del {pct}%',
@@ -5151,7 +5157,7 @@ export const it_IT: Partial<Record<TranslationKey, string>> = {
   'hudChrome.unitFrame.targetLabel': 'Il tuo bersaglio',
   'seo.officialLabel': 'Sito ufficiale di World of ClaudeCraft',
   'seo.officialBody':
-    "worldofclaudecraft.com è l'MMO gratuito ufficiale da browser del mondo Claudemoon. Gioca online con un personaggio persistente, esplora offline in solitaria, leggi il wiki e segui i link della community verificati da questo sito.",
+    'Il sito ufficiale di World of ClaudeCraft. Gioca online, leggi il wiki e trova qui i link della community.',
   'hudChrome.questShare.notShareable': 'Questa missione non può essere condivisa.',
   'hudChrome.questShare.notInSharerParty':
     'Devi essere nel gruppo di {name} per accettare quella missione.',
@@ -5521,11 +5527,10 @@ export const it_IT: Partial<Record<TranslationKey, string>> = {
   'wiki.desc': 'Scopri i segreti del reame, le guide di classe e le strategie.',
   'news.title': 'Notizie e aggiornamenti',
   'news.desc': 'Leggi le ultime note sulla patch, gli eventi e gli aggiornamenti della community.',
-  'download.title': 'Scarica il launcher per desktop',
+  'download.title': "Scarica l'app per desktop",
   'download.macCta': 'Scarica per macOS',
   'download.windowsPending': 'Build Windows in arrivo.',
-  'download.desc':
-    'Ottieni il launcher autonomo per prestazioni ottimizzate e gioco a schermo intero.',
+  'download.desc': 'Gioca su Windows, macOS o Linux con lo stesso account e gli stessi personaggi.',
   'comingSoon.placeholder': 'Prossimamente...',
   'comingSoon.featureComingSoon': 'Questa funzione sarà presto disponibile nel mondo.',
   'mode.onlineTitle': 'Gioca online',
@@ -5538,7 +5543,7 @@ export const it_IT: Partial<Record<TranslationKey, string>> = {
   'mode.offlineAria': 'Gioca offline: avvia una sessione locale a giocatore singolo istantanea',
   'mode.tipTitle': 'SUGGERIMENTO:',
   'mode.tipText':
-    "Per un'esperienza ottimale, disattiva le estensioni di blocco della pubblicità su questo sito. Alcuni utenti segnalano che i blocchi possono causare rallentamenti.",
+    'Il gioco è lento? Prova a disattivare il blocco della pubblicità su questo sito.',
   'auth.enterRealm': 'Entra nel mondo',
   'auth.username': 'Nome utente',
   'auth.usernameError': 'Inserisci il tuo nome utente.',
@@ -5773,7 +5778,7 @@ export const it_IT: Partial<Record<TranslationKey, string>> = {
   'controls.chat': 'Apri chat',
   'seo.title': 'World of ClaudeCraft: MMO web in stile classico',
   'seo.description':
-    "Parti per un'avventura epica in World of ClaudeCraft, un micro-MMO in stile classico giocabile direttamente dal browser. Entra in un mondo condiviso persistente, fai crescere le classi e sconfiggi i nemici!",
+    'Gioca a World of ClaudeCraft, un MMO gratuito da browser. Esplora, completa missioni e affronta i dungeon con gli amici. Nessun download richiesto.',
   'seo.genre': 'MMORPG',
   'seo.playMode': 'Multigiocatore',
   'seo.applicationCategory': 'Gioco',
@@ -9054,8 +9059,7 @@ export const it_IT: Partial<Record<TranslationKey, string>> = {
   'guide.home.group.raidTitle': "L'incursione",
   'guide.home.group.sub':
     'Il mondo è affrontabile in solitaria, ma il bottino migliore attende dietro un buon gruppo.',
-  'guide.home.subtitle':
-    'Affronta missioni, raggruppati ed esplora un mondo costruito a mano, gratis nel tuo browser.',
+  'guide.home.subtitle': 'Esplora il mondo, affronta missioni e supera i dungeon con gli amici.',
   'guide.home.title': 'World of ClaudeCraft',
   'guide.home.what.heading': 'Un MMO classico, fatto per essere preso al volo',
   'guide.home.what.pillarClassesBody':

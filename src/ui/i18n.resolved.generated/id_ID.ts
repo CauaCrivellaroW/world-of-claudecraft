@@ -5980,7 +5980,7 @@ export const id_ID: EnTranslations = {
     "home": {
       "eyebrow": "MMO browser bergaya klasik",
       "title": "World of ClaudeCraft",
-      "subtitle": "Berpetualang, bersatu, dan jelajahi dunia rakitan tangan, gratis di browser-mu.",
+      "subtitle": "Jelajahi dunia, selesaikan quest, dan taklukkan dungeon bersama teman.",
       "ctaPlay": "Main Sekarang",
       "ctaLearn": "Cara Bermain",
       "what": {
@@ -8554,8 +8554,8 @@ export const id_ID: EnTranslations = {
     "viewAll": "Lihat semua pembaruan di GitHub"
   },
   "download": {
-    "title": "Unduh Peluncur Desktop",
-    "desc": "Dapatkan peluncur mandiri untuk performa optimal dan permainan layar penuh.",
+    "title": "Unduh aplikasi desktop",
+    "desc": "Main di Windows, macOS, atau Linux dengan akun dan karakter yang sama.",
     "macCta": "Unduh untuk macOS",
     "windowsCta": "Unduh untuk Windows",
     "linuxCta": "Unduh untuk Linux",
@@ -8574,7 +8574,7 @@ export const id_ID: EnTranslations = {
     "offlineDesc": "Dunia pemain-tunggal seketika di peramban kamu. Tidak ada yang disimpan: sempurna untuk pertarungan singkat atau pengujian.",
     "offlineAria": "Main Luring: mulai sesi pemain-tunggal lokal seketika",
     "tipTitle": "TIPS:",
-    "tipText": "Untuk pengalaman paling lancar, matikan ekstensi pemblokir iklan di situs ini. Laporan komunitas menemukan beberapa pemblokir dapat menyebabkan lag.",
+    "tipText": "Game terasa lambat? Coba nonaktifkan pemblokir iklan untuk situs ini.",
     "serverOnline": "Online",
     "serverOffline": "Offline",
     "play": "Main",
@@ -9742,15 +9742,23 @@ export const id_ID: EnTranslations = {
       "dodge": "MENGELAK!"
     }
   },
+  "landing": {
+    "headline": "Bertualang bersama teman.",
+    "contribute": "Berkontribusi untuk game ini",
+    "tools": "Alat",
+    "records": "Rekor WoC",
+    "scout": "Pengintai WoC",
+    "parseService": "Layanan Parse WoC"
+  },
   "seo": {
     "title": "World of ClaudeCraft: MMO Web Bergaya Klasik",
-    "description": "Mulailah petualangan epik di World of ClaudeCraft, micro-MMO bergaya klasik yang dapat dimainkan langsung di peramban. Bergabunglah dengan dunia bersama yang persisten, naikkan level kelas, dan kalahkan musuh!",
+    "description": "Mainkan World of ClaudeCraft, MMO peramban gratis. Jelajahi dunia, selesaikan quest, dan taklukkan dungeon bersama teman. Tanpa perlu mengunduh.",
     "genre": "MMORPG",
     "playMode": "Multipemain",
     "applicationCategory": "Permainan",
     "operatingSystem": "Peramban web",
     "officialLabel": "Situs resmi World of ClaudeCraft",
-    "officialBody": "worldofclaudecraft.com adalah MMO peramban gratis resmi untuk dunia Claudemoon. Bermain daring dengan karakter yang persisten, jelajahi solo secara luring, baca wiki, dan ikuti tautan komunitas terverifikasi dari situs ini."
+    "officialBody": "Situs resmi World of ClaudeCraft. Main daring, baca wiki, dan temukan tautan komunitas di sini."
   },
   "a11y": {
     "goHome": "Ke halaman utama",

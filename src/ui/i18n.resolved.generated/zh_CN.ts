@@ -5980,7 +5980,7 @@ export const zh_CN: EnTranslations = {
     "home": {
       "eyebrow": "经典风格浏览器 MMO",
       "title": "World of ClaudeCraft",
-      "subtitle": "在你的浏览器中免费接受任务、组队、探索一个纯手工打造的世界。",
+      "subtitle": "探索世界、接受任务，与好友一起挑战地下城。",
       "ctaPlay": "立即游玩",
       "ctaLearn": "游戏入门",
       "what": {
@@ -8554,8 +8554,8 @@ export const zh_CN: EnTranslations = {
     "viewAll": "在 GitHub 上查看全部更新"
   },
   "download": {
-    "title": "下载电脑版启动器",
-    "desc": "获取独立启动器，以获得更优化的性能和全屏游戏体验。",
+    "title": "下载电脑版应用",
+    "desc": "使用同一账号和角色，在 Windows、macOS 或 Linux 上游玩。",
     "macCta": "下载 macOS 版",
     "windowsCta": "下载 Windows 版",
     "linuxCta": "下载 Linux 版",
@@ -8574,7 +8574,7 @@ export const zh_CN: EnTranslations = {
     "offlineDesc": "在浏览器中直接开启单人世界。所有数据均不保存：非常适合快速试玩或功能测试。",
     "offlineAria": "单机试玩：直接开始本地单人游戏会话",
     "tipTitle": "提示：",
-    "tipText": "为了获得最流畅的游玩体验，请在此网站上关闭广告拦截插件。根据社区反馈，部分拦截器可能会导致游戏卡顿。",
+    "tipText": "游戏运行缓慢？试试为本站关闭广告拦截器。",
     "serverOnline": "在线",
     "serverOffline": "离线",
     "play": "开始游戏",
@@ -9742,15 +9742,23 @@ export const zh_CN: EnTranslations = {
       "dodge": "躲闪！"
     }
   },
+  "landing": {
+    "headline": "与好友一起冒险。",
+    "contribute": "参与游戏开发",
+    "tools": "工具",
+    "records": "WoC 记录",
+    "scout": "WoC 侦察",
+    "parseService": "WoC 战斗日志"
+  },
   "seo": {
     "title": "World of ClaudeCraft：经典风格网页 MMO",
-    "description": "在 World of ClaudeCraft 展开史诗冒险。这是一款可直接在浏览器中游玩的经典风格微型 MMO。加入持续共享的世界，提升职业等级，击败敌人！",
+    "description": "畅玩 World of ClaudeCraft，一款免费的浏览器 MMO。探索世界、完成任务，与好友一起挑战地下城。无需下载。",
     "genre": "MMORPG",
     "playMode": "多人游戏",
     "applicationCategory": "游戏",
     "operatingSystem": "网页浏览器",
     "officialLabel": "World of ClaudeCraft 官方网站",
-    "officialBody": "worldofclaudecraft.com 是 Claudemoon 世界的官方免费浏览器 MMO。你可以用持久角色在线游玩，也可以离线单人探索，阅读 wiki，并从本站访问已验证的社区链接。"
+    "officialBody": "World of ClaudeCraft 官方网站。在线游玩、阅读 wiki，并在此找到社区链接。"
   },
   "a11y": {
     "goHome": "前往主页",

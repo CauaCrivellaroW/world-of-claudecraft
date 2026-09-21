@@ -2,6 +2,12 @@
 import type { TranslationKey } from '../i18n.catalog';
 
 export const id_ID: Partial<Record<TranslationKey, string>> = {
+  'landing.headline': 'Bertualang bersama teman.',
+  'landing.contribute': 'Berkontribusi untuk game ini',
+  'landing.tools': 'Alat',
+  'landing.records': 'Rekor WoC',
+  'landing.scout': 'Pengintai WoC',
+  'landing.parseService': 'Layanan Parse WoC',
   'hud.errors.cannotCastWhileMoving': 'Kamu tidak bisa merapal sambil bergerak.',
   'hudChrome.auraEffect.wolfForm':
     'Wujud Kucing: kerusakan jarak dekat dan energi; kecepatan gerak meningkat {pct}%',
@@ -5386,8 +5392,8 @@ export const id_ID: Partial<Record<TranslationKey, string>> = {
   'delveUi.tracker.module': 'Modul {current} dari {total}',
   'delveUi.tracker.objective': 'Sasaran',
   'delveUi.tracker.title': 'Delve',
-  'download.desc': 'Dapatkan peluncur mandiri untuk performa optimal dan permainan layar penuh.',
-  'download.title': 'Unduh Peluncur Desktop',
+  'download.desc': 'Main di Windows, macOS, atau Linux dengan akun dan karakter yang sama.',
+  'download.title': 'Unduh aplikasi desktop',
   'download.macCta': 'Unduh untuk macOS',
   'download.windowsPending': 'Build Windows tertunda.',
   'entities.abilities.adrenaline_rush.description':
@@ -8583,8 +8589,7 @@ export const id_ID: Partial<Record<TranslationKey, string>> = {
   'guide.home.group.raidTitle': 'Raidnya',
   'guide.home.group.sub':
     'Dunia ini bisa ditempuh sendiri, tetapi jarahan terbaik menanti di balik party yang baik.',
-  'guide.home.subtitle':
-    'Berpetualang, bersatu, dan jelajahi dunia rakitan tangan, gratis di browser-mu.',
+  'guide.home.subtitle': 'Jelajahi dunia, selesaikan quest, dan taklukkan dungeon bersama teman.',
   'guide.home.title': 'World of ClaudeCraft',
   'guide.home.what.heading': 'MMO klasik, dibuat agar mudah dimainkan',
   'guide.home.what.pillarClassesBody':
@@ -10428,8 +10433,7 @@ export const id_ID: Partial<Record<TranslationKey, string>> = {
   'mode.serverOffline': 'Offline',
   'mode.serverOfflineSub': 'Dunia lokal seketika',
   'mode.serverOnline': 'Online',
-  'mode.tipText':
-    'Untuk pengalaman paling lancar, matikan ekstensi pemblokir iklan di situs ini. Laporan komunitas menemukan beberapa pemblokir dapat menyebabkan lag.',
+  'mode.tipText': 'Game terasa lambat? Coba nonaktifkan pemblokir iklan untuk situs ini.',
   'mode.tipTitle': 'TIPS:',
   'nav.about': 'Tentang',
   'nav.account': 'Akun',
@@ -10583,10 +10587,10 @@ export const id_ID: Partial<Record<TranslationKey, string>> = {
   'realmTypes.rpPvp': 'RP-PvP',
   'seo.applicationCategory': 'Permainan',
   'seo.description':
-    'Mulailah petualangan epik di World of ClaudeCraft, micro-MMO bergaya klasik yang dapat dimainkan langsung di peramban. Bergabunglah dengan dunia bersama yang persisten, naikkan level kelas, dan kalahkan musuh!',
+    'Mainkan World of ClaudeCraft, MMO peramban gratis. Jelajahi dunia, selesaikan quest, dan taklukkan dungeon bersama teman. Tanpa perlu mengunduh.',
   'seo.genre': 'MMORPG',
   'seo.officialBody':
-    'worldofclaudecraft.com adalah MMO peramban gratis resmi untuk dunia Claudemoon. Bermain daring dengan karakter yang persisten, jelajahi solo secara luring, baca wiki, dan ikuti tautan komunitas terverifikasi dari situs ini.',
+    'Situs resmi World of ClaudeCraft. Main daring, baca wiki, dan temukan tautan komunitas di sini.',
   'seo.officialLabel': 'Situs resmi World of ClaudeCraft',
   'seo.operatingSystem': 'Peramban web',
   'seo.playMode': 'Multipemain',

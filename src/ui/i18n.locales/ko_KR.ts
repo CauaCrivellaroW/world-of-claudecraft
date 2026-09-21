@@ -15,6 +15,12 @@ import type { TranslationKey } from '../i18n.catalog';
 export const ko_KR: Partial<Record<TranslationKey, string>> = {
   'hudChrome.noticeboard.officerEntry': '{name}({rank})',
   'hudChrome.professionTrainers.nameplate': '＜{title}＞',
+  'landing.contribute': '게임 개발에 기여하기',
+  'landing.headline': '친구들과 함께 모험을 떠나세요.',
+  'landing.tools': '도구',
+  'landing.records': 'WoC 기록',
+  'landing.scout': 'WoC 정찰',
+  'landing.parseService': 'WoC 전투 기록',
   'guide.professions.endgameBodyRaidCollections':
     '명장 제작은 고유 장착: 명장 제작 표식을 공유하는 장비 계열이다. 기존 최상위 제작 경로는 발견하는 도안, 하루 단위로 제한되는 중간 재료 제작, 공통 최종 단계 재료를 그대로 사용한다. 도가니 세트는 공격대 재료를 쓰는 별도 경로이지, 기존 경로에 비용을 또 얹는 것이 아니다. 두 경로는 동일한 최대 2개 착용 제한을 공유하므로 구성에서 같은 두 자리를 두고 경쟁한다. 완성품은 완전하게 만들기나 의뢰 제작으로 해당 개체가 귀속되기 전까지 자유롭게 거래할 수 있다.',
   'guide.professions.endgamePatternsBodyCollections':
@@ -1176,7 +1182,7 @@ export const ko_KR: Partial<Record<TranslationKey, string>> = {
   'hudChrome.unitFrame.targetLabel': '내 대상',
   'seo.officialLabel': 'World of ClaudeCraft 공식 웹사이트',
   'seo.officialBody':
-    'worldofclaudecraft.com은 Claudemoon 월드의 공식 무료 브라우저 MMO입니다. 지속 캐릭터로 온라인 플레이를 하거나, 오프라인에서 혼자 탐험하고, 위키를 읽고, 이 사이트에서 검증된 커뮤니티 링크를 확인하세요.',
+    'World of ClaudeCraft 공식 홈페이지. 온라인으로 플레이하고, 위키를 읽고, 커뮤니티 링크를 여기에서 찾아보세요.',
   'hudChrome.questShare.notShareable': '이 퀘스트는 공유할 수 없습니다.',
   'hudChrome.questShare.notInSharerParty':
     '{name}님의 파티에 속해 있어야 이 퀘스트를 수락할 수 있습니다.',
@@ -2014,14 +2020,14 @@ export const ko_KR: Partial<Record<TranslationKey, string>> = {
   'wiki.desc': '렐름의 비밀과 클래스 가이드, 전략 등을 확인해 보세요.',
   'news.title': '새소식 및 업데이트',
   'news.desc': '최신 패치 노트, 이벤트 소식, 커뮤니티 업데이트를 확인해 보세요.',
-  'download.title': '데스크톱 런처 다운로드',
+  'download.title': '데스크톱 앱 다운로드',
   'download.macCta': 'macOS용 다운로드',
   'download.linuxCta': 'Linux용 다운로드',
   'download.linuxHint':
     'AppImage 형식입니다. 실행 권한만 부여하면 바로 실행되며, 설치는 필요 없습니다.',
   'download.windowsCta': 'Windows용 다운로드',
   'download.windowsPending': 'Windows 빌드는 준비 중입니다.',
-  'download.desc': '최적화된 성능과 전체 화면 플레이를 위해 독립형 런처를 다운로드하세요.',
+  'download.desc': '같은 계정과 캐릭터로 Windows, macOS, Linux에서 플레이하세요.',
   'comingSoon.placeholder': '준비 중...',
   'comingSoon.featureComingSoon': '이 기능은 곧 월드에 추가될 예정입니다.',
   'mode.onlineTitle': '온라인 플레이',
@@ -2033,8 +2039,7 @@ export const ko_KR: Partial<Record<TranslationKey, string>> = {
     '브라우저에서 즉시 일인용 세상을 플레이합니다. 아무것도 저장되지 않아 빠른 전투나 연습에 적합합니다.',
   'mode.offlineAria': '오프라인 플레이: 즉각적인 로컬 싱글 플레이 세션을 시작합니다',
   'mode.tipTitle': '팁:',
-  'mode.tipText':
-    '가장 원활한 이용을 위해 이 웹사이트의 광고 차단기 확장 프로그램을 비활성화해 주세요. 일부 차단기가 게임 성능 지연을 유발할 수 있습니다.',
+  'mode.tipText': '게임이 느린가요? 이 사이트에서 광고 차단기를 꺼 보세요.',
   'auth.enterRealm': '월드 입장',
   'auth.username': '사용자 이름',
   'auth.usernameError': '사용자 이름을 입력해 주세요.',
@@ -2309,7 +2314,7 @@ export const ko_KR: Partial<Record<TranslationKey, string>> = {
   'controls.chat': '채팅창 열기',
   'seo.title': 'World of ClaudeCraft: 클래식 스타일 웹 MMO',
   'seo.description':
-    '브라우저에서 바로 즐기는 클래식 스타일 마이크로 MMO, World of ClaudeCraft에서 장대한 모험을 시작하세요. 지속되는 공유 월드에 접속해 직업을 성장시키고 적을 물리치세요.',
+    '무료 브라우저 MMO, World of ClaudeCraft를 플레이하세요. 세계를 탐험하고, 퀘스트를 완료하고, 친구들과 던전을 공략하세요. 다운로드가 필요 없습니다.',
   'seo.genre': 'MMORPG',
   'seo.playMode': '멀티플레이어',
   'seo.applicationCategory': '게임',
@@ -6842,8 +6847,7 @@ export const ko_KR: Partial<Record<TranslationKey, string>> = {
   'guide.language.select': '언어 선택',
   'guide.home.eyebrow': '클래식 스타일 브라우저 MMO',
   'guide.home.title': 'World of ClaudeCraft',
-  'guide.home.subtitle':
-    '퀘스트를 수행하고, 파티를 맺고, 손수 빚은 세계를 브라우저에서 무료로 탐험하세요.',
+  'guide.home.subtitle': '세계를 탐험하고, 퀘스트를 수행하고, 친구들과 던전에 도전하세요.',
   'guide.home.ctaPlay': '지금 플레이',
   'guide.home.ctaLearn': '플레이 방법',
   'guide.home.what.heading': '누구나 쉽게 시작하는 클래식 MMO',

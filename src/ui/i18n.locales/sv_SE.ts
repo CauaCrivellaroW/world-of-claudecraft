@@ -2,6 +2,12 @@
 import type { TranslationKey } from '../i18n.catalog';
 
 export const sv_SE: Partial<Record<TranslationKey, string>> = {
+  'landing.headline': 'Äventyr med vänner.',
+  'landing.contribute': 'Bidra till spelet',
+  'landing.tools': 'Verktyg',
+  'landing.records': 'WoC Rekord',
+  'landing.scout': 'WoC Spejare',
+  'landing.parseService': 'WoC Parse-tjänst',
   'hud.errors.cannotCastWhileMoving': 'Du kan inte kasta besvärjelser medan du rör dig.',
   'hudChrome.auraEffect.wolfForm':
     'Kattform: närstridsskada och energi; ökar förflyttningshastigheten med {pct}%',
@@ -5213,8 +5219,8 @@ export const sv_SE: Partial<Record<TranslationKey, string>> = {
   'delveUi.tracker.module': 'Modul {current} av {total}',
   'delveUi.tracker.objective': 'Mål',
   'delveUi.tracker.title': 'Delve',
-  'download.desc': 'Hämta den fristående startaren för optimerad prestanda och spel i helskärm.',
-  'download.title': 'Ladda ner skrivbordsstartaren',
+  'download.desc': 'Spela på Windows, macOS eller Linux med samma konto och samma karaktärer.',
+  'download.title': 'Ladda ner skrivbordsappen',
   'download.macCta': 'Ladda ner för macOS',
   'download.windowsPending': 'Windows-bygge väntar.',
   'entities.abilities.adrenaline_rush.description':
@@ -7758,7 +7764,7 @@ export const sv_SE: Partial<Record<TranslationKey, string>> = {
   'guide.home.group.sub':
     'Världen går att klara solo, men det bästa bytet väntar bakom en bra grupp.',
   'guide.home.subtitle':
-    'Lös uppdrag, slå er samman och utforska en handbyggd värld, gratis i din webbläsare.',
+    'Utforska världen, ta dig an uppdrag och kämpa dig igenom dungeons med vänner.',
   'guide.home.title': 'World of ClaudeCraft',
   'guide.home.what.heading': 'Ett klassiskt MMO, gjort för att tas upp',
   'guide.home.what.pillarClassesBody':
@@ -9577,7 +9583,7 @@ export const sv_SE: Partial<Record<TranslationKey, string>> = {
   'mode.serverOfflineSub': 'Direkt lokal värld',
   'mode.serverOnline': 'Online',
   'mode.tipText':
-    'För den smidigaste upplevelsen, stäng av annonsblockerartillägg på den här sidan. Användarrapporter har visat att vissa blockerare kan orsaka fördröjning.',
+    'Går spelet långsamt? Prova att stänga av din annonsblockerare för den här sidan.',
   'mode.tipTitle': 'TIPS:',
   'nav.about': 'Om',
   'nav.account': 'Konto',
@@ -9731,10 +9737,10 @@ export const sv_SE: Partial<Record<TranslationKey, string>> = {
   'realmTypes.rpPvp': 'RP-PvP',
   'seo.applicationCategory': 'Spel',
   'seo.description':
-    'Ge dig ut på ett episkt äventyr i World of ClaudeCraft, en klassiskt inspirerad mikro-MMO som du spelar direkt i din webbläsare. Anslut till en beständig delad värld, höj nivå på klasser och besegra fiender!',
+    'Spela World of ClaudeCraft, en gratis MMO i webbläsaren. Utforska, gör uppdrag och ta dig igenom dungeons med vänner. Ingen nedladdning krävs.',
   'seo.genre': 'MMORPG',
   'seo.officialBody':
-    'worldofclaudecraft.com är den officiella gratis webbläsar-MMO:n för Claudemoon-världen. Spela online med en beständig karaktär, utforska solo offline, läs wikin och följ verifierade gemenskapslänkar från den här webbplatsen.',
+    'Den officiella webbplatsen för World of ClaudeCraft. Spela online, läs wikin och hitta gemenskapslänkarna här.',
   'seo.officialLabel': 'Officiell webbplats för World of ClaudeCraft',
   'seo.operatingSystem': 'Webbläsare',
   'seo.playMode': 'Flerspelarläge',

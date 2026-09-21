@@ -5980,7 +5980,7 @@ export const ja_JP: EnTranslations = {
     "home": {
       "eyebrow": "クラシックスタイルのブラウザMMO",
       "title": "World of ClaudeCraft",
-      "subtitle": "クエストをこなし、仲間と組み、手作りのワールドを冒険しよう。ブラウザで無料。",
+      "subtitle": "世界を探索し、クエストに挑み、仲間とダンジョンを攻略しよう。",
       "ctaPlay": "今すぐプレイ",
       "ctaLearn": "遊び方",
       "what": {
@@ -8554,8 +8554,8 @@ export const ja_JP: EnTranslations = {
     "viewAll": "GitHubですべての更新を見る"
   },
   "download": {
-    "title": "デスクトップランチャーのダウンロード",
-    "desc": "最適化されたパフォーマンスと全画面表示でのプレイのために、スタンドアロン版ランチャーを入手してください。",
+    "title": "デスクトップアプリをダウンロード",
+    "desc": "同じアカウントとキャラクターで、Windows、macOS、Linux でプレイできます。",
     "macCta": "macOS版をダウンロード",
     "windowsCta": "Windows版をダウンロード",
     "linuxCta": "Linux版をダウンロード",
@@ -8574,7 +8574,7 @@ export const ja_JP: EnTranslations = {
     "offlineDesc": "ブラウザ上で即座にシングルプレイヤーの世界を起動します。保存は一切されず、小規模な対戦やテストに最適です。",
     "offlineAria": "オフラインでプレイ：即座にローカルシングルプレイヤーセッションを開始します",
     "tipTitle": "ヒント：",
-    "tipText": "よりスムーズな体験のために、本サイトでの広告ブロック拡張機能を無効にしてください。コミュニティの報告によると、一部のブロック機能がラグの原因になる場合があります。",
+    "tipText": "ゲームの動作が重いですか？このサイトで広告ブロッカーを無効にしてみてください。",
     "serverOnline": "オンライン",
     "serverOffline": "オフライン",
     "play": "プレイ",
@@ -9742,15 +9742,23 @@ export const ja_JP: EnTranslations = {
       "dodge": "回避！"
     }
   },
+  "landing": {
+    "headline": "仲間と冒険しよう。",
+    "contribute": "ゲーム開発に参加する",
+    "tools": "ツール",
+    "records": "WoC 記録",
+    "scout": "WoC スカウト",
+    "parseService": "WoC 戦闘ログ"
+  },
   "seo": {
     "title": "World of ClaudeCraft: クラシック風Web MMO",
-    "description": "ブラウザで直接遊べるクラシック風マイクロMMO、World of ClaudeCraft で壮大な冒険に出ましょう。永続的な共有ワールドに参加し、クラスを育て、敵を倒してください。",
+    "description": "無料のブラウザMMO、World of ClaudeCraft をプレイしよう。世界を探索し、クエストをこなし、仲間とダンジョンに挑もう。ダウンロード不要。",
     "genre": "MMORPG",
     "playMode": "マルチプレイヤー",
     "applicationCategory": "ゲーム",
     "operatingSystem": "Webブラウザ",
     "officialLabel": "World of ClaudeCraft 公式サイト",
-    "officialBody": "worldofclaudecraft.com は Claudemoon ワールドの公式無料ブラウザMMOです。永続キャラクターでオンラインプレイし、オフラインでソロ探索し、wikiを読み、このサイトから確認済みのコミュニティリンクをたどれます。"
+    "officialBody": "World of ClaudeCraft の公式サイト。オンラインでプレイし、wiki を読み、コミュニティリンクを見つけよう。"
   },
   "a11y": {
     "goHome": "ホームへ移動",

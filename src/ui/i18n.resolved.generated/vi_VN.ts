@@ -5980,7 +5980,7 @@ export const vi_VN: EnTranslations = {
     "home": {
       "eyebrow": "MMO cổ điển trên trình duyệt",
       "title": "World of ClaudeCraft",
-      "subtitle": "Làm nhiệm vụ, hợp sức và khám phá một thế giới được dựng thủ công, miễn phí ngay trong trình duyệt của bạn.",
+      "subtitle": "Khám phá thế giới, nhận nhiệm vụ và chinh phục hầm ngục cùng bạn bè.",
       "ctaPlay": "Chơi Ngay",
       "ctaLearn": "Cách Chơi",
       "what": {
@@ -8554,8 +8554,8 @@ export const vi_VN: EnTranslations = {
     "viewAll": "Xem tất cả cập nhật trên GitHub"
   },
   "download": {
-    "title": "Tải Trình Khởi Chạy Trên Máy Tính",
-    "desc": "Tải trình khởi chạy độc lập để có hiệu năng tối ưu và chơi toàn màn hình.",
+    "title": "Tải ứng dụng máy tính",
+    "desc": "Chơi trên Windows, macOS hoặc Linux với cùng tài khoản và nhân vật của bạn.",
     "macCta": "Tải xuống cho macOS",
     "windowsCta": "Tải xuống cho Windows",
     "linuxCta": "Tải xuống cho Linux",
@@ -8574,7 +8574,7 @@ export const vi_VN: EnTranslations = {
     "offlineDesc": "Thế giới chơi đơn tức thì ngay trong trình duyệt. Không lưu lại gì: hoàn hảo cho một trận đánh nhanh hoặc để thử nghiệm.",
     "offlineAria": "Chơi Ngoại Tuyến: bắt đầu phiên chơi đơn cục bộ tức thì",
     "tipTitle": "MẸO:",
-    "tipText": "Để có trải nghiệm mượt mà nhất, hãy tắt các tiện ích chặn quảng cáo trên trang này. Cộng đồng phản ánh rằng một số trình chặn có thể gây giật lag.",
+    "tipText": "Trò chơi chạy chậm? Hãy thử tắt trình chặn quảng cáo cho trang này.",
     "serverOnline": "Trực Tuyến",
     "serverOffline": "Ngoại Tuyến",
     "play": "Chơi",
@@ -9742,15 +9742,23 @@ export const vi_VN: EnTranslations = {
       "dodge": "NÉ ĐÒN!"
     }
   },
+  "landing": {
+    "headline": "Phiêu lưu cùng bạn bè.",
+    "contribute": "Đóng góp cho trò chơi",
+    "tools": "Công cụ",
+    "records": "Kỷ lục WoC",
+    "scout": "Trinh sát WoC",
+    "parseService": "Dịch vụ parse WoC"
+  },
   "seo": {
     "title": "World of ClaudeCraft: MMO Web Phong Cách Cổ Điển",
-    "description": "Bắt đầu cuộc phiêu lưu hoành tráng trong World of ClaudeCraft, một micro-MMO phong cách cổ điển chơi trực tiếp trên trình duyệt của bạn. Tham gia một thế giới chung bền vững, lên cấp các lớp nhân vật và đánh bại kẻ thù!",
+    "description": "Chơi World of ClaudeCraft, MMO miễn phí trên trình duyệt. Khám phá, hoàn thành nhiệm vụ và chinh phục hầm ngục cùng bạn bè. Không cần tải về.",
     "genre": "MMORPG",
     "playMode": "Nhiều người chơi",
     "applicationCategory": "Trò chơi",
     "operatingSystem": "Trình duyệt web",
     "officialLabel": "Trang web World of ClaudeCraft chính thức",
-    "officialBody": "worldofclaudecraft.com là trang MMO trên trình duyệt miễn phí chính thức cho thế giới Claudemoon. Chơi trực tuyến với một nhân vật bền vững, khám phá đơn lẻ ngoại tuyến, đọc wiki và theo dõi các liên kết cộng đồng đã được xác minh từ trang này."
+    "officialBody": "Trang chủ chính thức của World of ClaudeCraft. Chơi trực tuyến, đọc wiki và tìm các liên kết cộng đồng tại đây."
   },
   "a11y": {
     "goHome": "Về trang chủ",

@@ -2,6 +2,12 @@
 import type { TranslationKey } from '../i18n.catalog';
 
 export const da_DK: Partial<Record<TranslationKey, string>> = {
+  'landing.headline': 'Eventyr med venner.',
+  'landing.contribute': 'Bidrag til spillet',
+  'landing.tools': 'Værktøjer',
+  'landing.records': 'WoC Rekorder',
+  'landing.scout': 'WoC Spejder',
+  'landing.parseService': 'WoC Parse-tjeneste',
   'hud.errors.cannotCastWhileMoving': 'Du kan ikke kaste, mens du bevæger dig.',
   'hudChrome.auraEffect.wolfForm':
     'Katteform: nærkampsskade og energi; bevægelseshastighed øget med {pct}%',
@@ -5216,8 +5222,8 @@ export const da_DK: Partial<Record<TranslationKey, string>> = {
   'delveUi.tracker.module': 'Modul {current} af {total}',
   'delveUi.tracker.objective': 'Mål',
   'delveUi.tracker.title': 'Delve',
-  'download.desc': 'Hent den selvstændige launcher for optimeret ydeevne og fuldskærmsspil.',
-  'download.title': 'Download Desktop-launcher',
+  'download.desc': 'Spil på Windows, macOS eller Linux med samme konto og samme karakterer.',
+  'download.title': 'Download desktop-appen',
   'download.macCta': 'Download til macOS',
   'download.windowsPending': 'Windows-build afventer.',
   'entities.abilities.adrenaline_rush.description':
@@ -7645,8 +7651,7 @@ export const da_DK: Partial<Record<TranslationKey, string>> = {
   'guide.home.group.raidBody': 'En afslutning for ti spillere til dem, der når toppen af verden.',
   'guide.home.group.raidTitle': 'Raidet',
   'guide.home.group.sub': 'Verden kan klares solo, men det bedste bytte venter bag en god gruppe.',
-  'guide.home.subtitle':
-    'Tag på quest, slå jer sammen, og udforsk en håndbygget verden, gratis i din browser.',
+  'guide.home.subtitle': 'Udforsk verdenen, tag på quests, og kæmp dig gennem dungeons med venner.',
   'guide.home.title': 'World of ClaudeCraft',
   'guide.home.what.heading': 'En klassisk MMO, lavet til at gå til',
   'guide.home.what.pillarClassesBody':
@@ -9573,8 +9578,7 @@ export const da_DK: Partial<Record<TranslationKey, string>> = {
   'mode.serverOffline': 'Offline',
   'mode.serverOfflineSub': 'Øjeblikkelig lokal verden',
   'mode.serverOnline': 'Online',
-  'mode.tipText':
-    'For den jævneste oplevelse bør du slå annonceblokerings-udvidelser fra på denne side. Fællesskabet har rapporteret, at nogle blokerere kan forårsage hak.',
+  'mode.tipText': 'Kører spillet langsomt? Prøv at slå din annonceblokering fra for denne side.',
   'mode.tipTitle': 'TIP:',
   'nav.about': 'Om',
   'nav.account': 'Konto',
@@ -9727,10 +9731,10 @@ export const da_DK: Partial<Record<TranslationKey, string>> = {
   'realmTypes.rpPvp': 'RP-PvP',
   'seo.applicationCategory': 'Spil',
   'seo.description':
-    'Begiv dig ud på et episk eventyr i World of ClaudeCraft, en klassisk-inspireret micro-MMO, der kan spilles direkte i din browser. Slut dig til en vedvarende delt verden, lev op dine klasser, og besejr fjender!',
+    'Spil World of ClaudeCraft, en gratis browser-MMO. Udforsk, løs quests, og gå i dungeons med venner. Ingen download nødvendig.',
   'seo.genre': 'MMORPG',
   'seo.officialBody':
-    'worldofclaudecraft.com er den officielle gratis browser-MMO for Claudemoon-verdenen. Spil online med en vedvarende karakter, udforsk solo offline, læs wikien, og følg verificerede fællesskabslinks fra denne side.',
+    'Den officielle side for World of ClaudeCraft. Spil online, læs wikien, og find fællesskabslinks her.',
   'seo.officialLabel': 'Officiel World of ClaudeCraft-hjemmeside',
   'seo.operatingSystem': 'Webbrowser',
   'seo.playMode': 'Flerspiller',

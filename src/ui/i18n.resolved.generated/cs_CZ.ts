@@ -5980,7 +5980,7 @@ export const cs_CZ: EnTranslations = {
     "home": {
       "eyebrow": "Prohlížečové MMO v klasickém stylu",
       "title": "World of ClaudeCraft",
-      "subtitle": "Plň úkoly, hraj ve skupině a objevuj ručně vystavěný svět zdarma v prohlížeči.",
+      "subtitle": "Prozkoumej svět, plň úkoly a zdolávej dungeony s přáteli.",
       "ctaPlay": "Hrát teď",
       "ctaLearn": "Jak hrát",
       "what": {
@@ -8554,8 +8554,8 @@ export const cs_CZ: EnTranslations = {
     "viewAll": "Zobrazit všechny aktualizace na GitHubu"
   },
   "download": {
-    "title": "Stáhnout desktopový launcher",
-    "desc": "Získej samostatný launcher pro optimalizovaný výkon a hraní na celé obrazovce.",
+    "title": "Stáhnout desktopovou aplikaci",
+    "desc": "Hraj na Windows, macOS nebo Linuxu se stejným účtem a stejnými postavami.",
     "macCta": "Stáhnout pro macOS",
     "windowsCta": "Stáhnout pro Windows",
     "linuxCta": "Stáhnout pro Linux",
@@ -8574,7 +8574,7 @@ export const cs_CZ: EnTranslations = {
     "offlineDesc": "Okamžitý svět pro jednoho hráče v prohlížeči. Nic se neukládá: ideální pro rychlou bitku nebo testování.",
     "offlineAria": "Hrát offline: spustit okamžitou lokální hru pro jednoho hráče",
     "tipTitle": "TIP:",
-    "tipText": "Pro co nejplynulejší zážitek vypni na tomto webu rozšíření pro blokování reklam. Podle hlášení komunity mohou některé blokátory způsobovat lagy.",
+    "tipText": "Běží hra pomalu? Zkus na tomto webu vypnout blokování reklam.",
     "serverOnline": "Online",
     "serverOffline": "Offline",
     "play": "Hrát",
@@ -9742,15 +9742,23 @@ export const cs_CZ: EnTranslations = {
       "dodge": "VYHNUTÍ!"
     }
   },
+  "landing": {
+    "headline": "Dobrodružství s přáteli.",
+    "contribute": "Přispěj do hry",
+    "tools": "Nástroje",
+    "records": "WoC Rekordy",
+    "scout": "WoC Průzkumník",
+    "parseService": "WoC parsovací služba"
+  },
   "seo": {
     "title": "World of ClaudeCraft: webové MMO v klasickém stylu",
-    "description": "Vydej se na epické dobrodružství ve World of ClaudeCraft, klasicky laděném micro-MMO hratelném přímo v prohlížeči. Připoj se k trvalému sdílenému světu, zvyšuj úrovně tříd a porážej nepřátele!",
+    "description": "Hraj World of ClaudeCraft, bezplatné MMO v prohlížeči. Prozkoumávej svět, plň úkoly a procházej dungeony s přáteli. Bez stahování.",
     "genre": "MMORPG",
     "playMode": "Multiplayer",
     "applicationCategory": "Hra",
     "operatingSystem": "Webový prohlížeč",
     "officialLabel": "Oficiální web World of ClaudeCraft",
-    "officialBody": "worldofclaudecraft.com je oficiální bezplatné prohlížečové MMO pro svět Claudemoon. Hraj online s trvalou postavou, prozkoumávej sólo offline, čti wiki a používej ověřené komunitní odkazy z tohoto webu."
+    "officialBody": "Oficiální web World of ClaudeCraft. Hraj online, čti wiki a najdi tu odkazy na komunitu."
   },
   "a11y": {
     "goHome": "Přejít na domovskou stránku",

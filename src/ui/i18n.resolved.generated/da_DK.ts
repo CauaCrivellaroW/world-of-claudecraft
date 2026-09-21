@@ -5980,7 +5980,7 @@ export const da_DK: EnTranslations = {
     "home": {
       "eyebrow": "Klassisk browser-MMO",
       "title": "World of ClaudeCraft",
-      "subtitle": "Tag på quest, slå jer sammen, og udforsk en håndbygget verden, gratis i din browser.",
+      "subtitle": "Udforsk verdenen, tag på quests, og kæmp dig gennem dungeons med venner.",
       "ctaPlay": "Spil nu",
       "ctaLearn": "Sådan spiller du",
       "what": {
@@ -8554,8 +8554,8 @@ export const da_DK: EnTranslations = {
     "viewAll": "Se alle opdateringer på GitHub"
   },
   "download": {
-    "title": "Download Desktop-launcher",
-    "desc": "Hent den selvstændige launcher for optimeret ydeevne og fuldskærmsspil.",
+    "title": "Download desktop-appen",
+    "desc": "Spil på Windows, macOS eller Linux med samme konto og samme karakterer.",
     "macCta": "Download til macOS",
     "windowsCta": "Download til Windows",
     "linuxCta": "Download til Linux",
@@ -8574,7 +8574,7 @@ export const da_DK: EnTranslations = {
     "offlineDesc": "Øjeblikkelig singleplayer-verden i din browser. Intet gemmes: perfekt til en hurtig dyst eller test.",
     "offlineAria": "Spil offline: start en øjeblikkelig lokal singleplayer-session",
     "tipTitle": "TIP:",
-    "tipText": "For den jævneste oplevelse bør du slå annonceblokerings-udvidelser fra på denne side. Fællesskabet har rapporteret, at nogle blokerere kan forårsage hak.",
+    "tipText": "Kører spillet langsomt? Prøv at slå din annonceblokering fra for denne side.",
     "serverOnline": "Online",
     "serverOffline": "Offline",
     "play": "Spil",
@@ -9742,15 +9742,23 @@ export const da_DK: EnTranslations = {
       "dodge": "UNDVEG!"
     }
   },
+  "landing": {
+    "headline": "Eventyr med venner.",
+    "contribute": "Bidrag til spillet",
+    "tools": "Værktøjer",
+    "records": "WoC Rekorder",
+    "scout": "WoC Spejder",
+    "parseService": "WoC Parse-tjeneste"
+  },
   "seo": {
     "title": "World of ClaudeCraft: Klassisk-inspireret web-MMO",
-    "description": "Begiv dig ud på et episk eventyr i World of ClaudeCraft, en klassisk-inspireret micro-MMO, der kan spilles direkte i din browser. Slut dig til en vedvarende delt verden, lev op dine klasser, og besejr fjender!",
+    "description": "Spil World of ClaudeCraft, en gratis browser-MMO. Udforsk, løs quests, og gå i dungeons med venner. Ingen download nødvendig.",
     "genre": "MMORPG",
     "playMode": "Flerspiller",
     "applicationCategory": "Spil",
     "operatingSystem": "Webbrowser",
     "officialLabel": "Officiel World of ClaudeCraft-hjemmeside",
-    "officialBody": "worldofclaudecraft.com er den officielle gratis browser-MMO for Claudemoon-verdenen. Spil online med en vedvarende karakter, udforsk solo offline, læs wikien, og følg verificerede fællesskabslinks fra denne side."
+    "officialBody": "Den officielle side for World of ClaudeCraft. Spil online, læs wikien, og find fællesskabslinks her."
   },
   "a11y": {
     "goHome": "Gå til forsiden",
