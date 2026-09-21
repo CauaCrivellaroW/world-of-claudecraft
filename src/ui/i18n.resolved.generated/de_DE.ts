@@ -9742,6 +9742,14 @@ export const de_DE: EnTranslations = {
       "dodge": "AUSGEWICHEN!"
     }
   },
+  "landing": {
+    "headline": "Adventure with friends.",
+    "contribute": "Contribute to the game",
+    "tools": "Tools",
+    "records": "WoC Records",
+    "scout": "WoC Scout",
+    "parseService": "WoC Parse Service"
+  },
   "seo": {
     "title": "World of ClaudeCraft: Klassisches Web-MMO",
     "description": "Begib dich in World of ClaudeCraft auf ein episches Abenteuer, ein Micro-MMO im klassischen Stil direkt im Browser. Tritt einer dauerhaften, gemeinsamen Welt bei, steigere Klassen und besiege Gegner.",

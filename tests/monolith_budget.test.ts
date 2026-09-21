@@ -1267,7 +1267,8 @@ const MONOLITHS: MonolithRow[] = [
     // R40 confirm gate and the node bundle out of interactKey, main v0.42.1)
     // composed with the release's game_renderer.ts extraction. Exact merged
     // count, zero slack.
-    ceiling: 11281,
+    // Page and panel transitions now live in game/*_navigation.ts.
+    ceiling: 11113,
     seam: 'a src/game/ or src/ui/ sibling module; main.ts is a firewall, not a home',
   },
   {

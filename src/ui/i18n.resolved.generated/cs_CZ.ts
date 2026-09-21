@@ -9742,6 +9742,14 @@ export const cs_CZ: EnTranslations = {
       "dodge": "VYHNUTÍ!"
     }
   },
+  "landing": {
+    "headline": "Adventure with friends.",
+    "contribute": "Contribute to the game",
+    "tools": "Tools",
+    "records": "WoC Records",
+    "scout": "WoC Scout",
+    "parseService": "WoC Parse Service"
+  },
   "seo": {
     "title": "World of ClaudeCraft: webové MMO v klasickém stylu",
     "description": "Vydej se na epické dobrodružství ve World of ClaudeCraft, klasicky laděném micro-MMO hratelném přímo v prohlížeči. Připoj se k trvalému sdílenému světu, zvyšuj úrovně tříd a porážej nepřátele!",
